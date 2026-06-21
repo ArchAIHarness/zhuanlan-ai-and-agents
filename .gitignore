@@ -34,3 +34,6 @@ temp/
 
 # Baoyu image generation config (local runtime, not part of repo)
 .baoyu-skills/
+
+# Doubao speech config (local API keys)
+.doubao-speech/
