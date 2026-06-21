@@ -1,0 +1,26 @@
+[
+  {
+    "prompt": "Hand-drawn educational framework diagram on warm cream paper (#F5F0E8). Black sketch lines. Soft pastel blocks in orange, green, blue. Handwritten Chinese labels. Simple line icons.\n\nA side-by-side comparison showing analogy between navigation app and AI reasoning.\nLeft: smartphone with map route, flow: 输入目的地 → 规划路线 → 按导航行驶 → 遇到封路 → 重新规划. Icons: pin, road, detour.\nRight: computer/robot, flow: 接收任务 → 拆解步骤 → 执行 → 发现错误 → 自我修正. Icons: document, checklist, gear.\nCenter: double-headed arrow labeled \"结构一致\".\nBottom label: \"所有自主推理框架，本质都是让AI按流程走\"\nSimple line art, no realistic faces.",
+    "image": "01-navigation-analogy.png",
+    "ar": "16:9",
+    "quality": "2k"
+  },
+  {
+    "prompt": "Hand-drawn educational framework diagram on warm cream paper (#F5F0E8). Black sketch lines. Soft pastel blocks in orange, green, blue. Handwritten Chinese labels. Simple line icons.\n\nA circular flow diagram of ReAct loop, 4 steps clockwise.\nStep 1 (Think, soft blue): lightbulb icon, label \"思考——我现在知道什么？\"\nStep 2 (Act, soft orange): gear icon, label \"行动——执行一个具体动作\"\nStep 3 (Observe, soft green): magnifying glass icon, label \"观察——行动结果是什么？\"\nStep 4 (Loop, soft blue): circular arrow icon, label \"带着新信息回到第一步\"\nArrows connect: Think → Act → Observe → Think.\nCenter: \"ReAct = Reasoning + Acting\"\nBottom: \"不是先想再做，是边想边做，做完看结果，看完接着想\"\nSketch style, hand-drawn feel.",
+    "image": "02-react-loop.png",
+    "ar": "16:9",
+    "quality": "2k"
+  },
+  {
+    "prompt": "Hand-drawn educational framework diagram on warm cream paper (#F5F0E8). Black sketch lines. Soft pastel blocks in orange, green, blue. Handwritten Chinese labels. Simple line icons.\n\nTwo paths showing Chain of Thought.\nTop path (wrong): person jumping from start to conclusion, big red X, broken path. Label \"直接跳到结论 → 容易跑偏\"\nBottom path (correct): person stepping on colored stones across a river. Stones labeled: 已知条件 → 第一步推理 → 第二步推理 → 中间结论 → 最终答案. Green checkmarks. Label \"每一步写出来 → 每一步都是下一步的锚点\"\nBottom caption: \"思维链的本质不是'解释'，是'不跳步'\"\nSimple silhouette figures, no faces, sketch-style.",
+    "image": "03-chain-of-thought.png",
+    "ar": "16:9",
+    "quality": "2k"
+  },
+  {
+    "prompt": "Hand-drawn educational framework diagram on warm cream paper (#F5F0E8). Black sketch lines. Soft pastel blocks in orange, green, blue. Handwritten Chinese labels. Simple line icons.\n\nThree columns showing human-in-the-loop intervention points.\nHeader: \"人工接管点的三种类型\"\n\nLeft (orange) - 确认站: human silhouette and robot face with question mark between them. Description: \"AI不确定时停下来问你。关键决策但信息不足。\"\n\nCenter (blue) - 审批站: document with \"审批\" stamp, human thumbs up. Description: \"AI完成重要步骤，让你确认再继续。文案草稿、代码审查。\"\n\nRight (green) - 失败回退: robot with hands up, human stepping in. Description: \"AI搞不定时主动认输。API不通、权限不够。\"\n\nBottom: \"在正确的地方设卡，不要在每一步都插手\"\nSimple line art, no realistic faces.",
+    "image": "04-human-intervention-points.png",
+    "ar": "16:9",
+    "quality": "2k"
+  }
+]
