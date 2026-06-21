@@ -149,3 +149,23 @@ AI 模型的工作原理，可以先记住这句话：
 先把核心概念讲明白，再理解模型训练、提示词、幻觉、多模态和实际应用。当你知道 AI 是怎么工作的，你使用它的方式会完全不一样。
 
 因为未来最有竞争力的人，不一定是最懂技术的人，而是最先学会和 AI 协作的人。
+
+---
+
+### 关于 ArchAIHarness
+
+这篇文章是「看懂 AI 与智能体」专栏的一部分，由 [**ArchAIHarness**](https://github.com/ArchAIHarness) 持续输出。
+
+ArchAIHarness 是一套面向 AI 时代软件工程的人机协同架构哲学与公开工程资产，主张：
+
+> **架构师定义秩序，AI 在秩序中生长。人立法，AI 执行，体系审计。**
+
+如果你也希望 AI 在明确的架构边界内协作，而不是在混沌中碰运气，欢迎到 GitHub 上看看我们在做什么：
+
+- **组织主页**：[github.com/ArchAIHarness](https://github.com/ArchAIHarness) — 了解完整理念与资产全景
+- **本专栏**：[`zhuanlan-ai-and-agents`](https://github.com/ArchAIHarness/zhuanlan-ai-and-agents) — 所有文章的源码与发布记录
+- **实践指南**：[`docs`](https://github.com/ArchAIHarness/docs) — 架构哲学、工程方法和落地指南
+- **开源工具**：[`agent-workflows`](https://github.com/ArchAIHarness/agent-workflows) — 可复用的 AI 协作 Agents、Skills 与 Tools
+- **工程样例**：[`framework`](https://github.com/ArchAIHarness/framework) — DDD + AI 协作的工程底座，展示如何在开发中融合 AI
+
+> Engineered by Architects · Empowered by AI · Audited by Discipline
