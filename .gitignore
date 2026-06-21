@@ -32,8 +32,5 @@ temp/
 .csdn-snapshots/
 **/.csdn-snapshots/
 
-# Baoyu local runtime files: keep only shareable project-level EXTEND.md configs
-.baoyu-skills/**
-!.baoyu-skills/
-!.baoyu-skills/*/
-!.baoyu-skills/*/EXTEND.md
+# Baoyu image generation config (local runtime, not part of repo)
+.baoyu-skills/
