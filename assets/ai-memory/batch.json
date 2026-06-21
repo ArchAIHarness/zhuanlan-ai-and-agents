@@ -1,0 +1,44 @@
+[
+  {
+    "promptFiles": ["prompts/00-three-layer-desk.md"],
+    "image": "./00-three-layer-desk.png",
+    "ar": "16:9",
+    "quality": "2k"
+  },
+  {
+    "promptFiles": ["prompts/cover.md"],
+    "image": "./cover.png",
+    "ar": "16:9",
+    "quality": "2k"
+  },
+  {
+    "promptFiles": ["prompts/01-desktop-workbench.md"],
+    "image": "./01-desktop-workbench.png",
+    "ar": "16:9",
+    "quality": "2k"
+  },
+  {
+    "promptFiles": ["prompts/02-desk-drawer.md"],
+    "image": "./02-desk-drawer.png",
+    "ar": "16:9",
+    "quality": "2k"
+  },
+  {
+    "promptFiles": ["prompts/03-bookshelf-organized.md"],
+    "image": "./03-bookshelf-organized.png",
+    "ar": "16:9",
+    "quality": "2k"
+  },
+  {
+    "promptFiles": ["prompts/04-three-case-logic.md"],
+    "image": "./04-three-case-logic.png",
+    "ar": "16:9",
+    "quality": "2k"
+  },
+  {
+    "promptFiles": ["prompts/05-three-layer-overview.md"],
+    "image": "./05-three-layer-overview.png",
+    "ar": "16:9",
+    "quality": "2k"
+  }
+]

@@ -53,7 +53,7 @@
 - [`assets/tool-skill-mcp/`](./assets/tool-skill-mcp/)：Tool、Skill、MCP 文章配图。
 - [`assets/prompt-contract/`](./assets/prompt-contract/)：提示词契约文章配图。
 - [`assets/ai-work-buddy/`](./assets/ai-work-buddy/)：AI 搭子/OpenCode 实操文章配图。
-- [`assets/ai-memory/`](./assets/ai-memory/)：三层记忆体系文章配图。
+- [`assets/ai-memory/`](./assets/ai-memory/)：三层记忆体系文章配图（00 = 办公桌三层全景，01 = 工作记忆，02 = 短期记忆，03 = 长期记忆组织方式，04 = 三种案例，05 = 三层协作流程）。
 
 ## 关于本仓库
 
