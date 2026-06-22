@@ -33,7 +33,7 @@
 | 5 | 别再找 Prompt 模板了：提示词的本质，是你和 AI 的任务契约 | 已发布 | 人怎么把任务清楚地交给 AI | [链接](https://zhuanlan.zhihu.com/p/2051352194537075133) | [链接](https://blog.csdn.net/wzx_cx/article/details/162129864) | [链接](https://juejin.cn/post/7652934507591155739) |
 | 6 | 从"会聊天"到"能干活"：用 OpenCode 给自己找个 AI 搭子 | 已发布 | 怎么把前 5 篇的理论落到真实工具里 | [链接](https://zhuanlan.zhihu.com/p/2051471471491471161) | [链接](https://blog.csdn.net/wzx_cx/article/details/162165596) | [链接](https://juejin.cn/post/7653442979388031014) |
 | 7 | AI 能记住你做过的事吗？看懂三层记忆，你就知道怎么跟它长期合作 | 已发布 | 怎么帮 AI 设计跨会话的长期记忆，让 Agent 可靠地工作 | [链接](https://zhuanlan.zhihu.com/p/2052088543468696412) | [链接](https://blog.csdn.net/wzx_cx/article/details/162174540) | [链接](https://juejin.cn/spost/7653533398468558857) |
-| 8 | AI 能记住了，但能自己干活吗？——看懂执行系统，你就知道它怎么完成复杂任务 | 已发布 | 怎么给 AI 设计执行系统，让它既自主又不出格 | — | [链接](https://blog.csdn.net/wzx_cx/article/details/162181623) | — |
+| 8 | AI 能记住了，但能自己干活吗？——看懂执行系统，你就知道它怎么完成复杂任务 | 已发布 | 怎么给 AI 设计执行系统，让它既自主又不出格 | [链接](https://zhuanlan.zhihu.com/p/2052400473282548080) | [链接](https://blog.csdn.net/wzx_cx/article/details/162181623) | — |
 
 前 7 篇完成了从模型生成、Agent 执行、上下文约束、外部能力体系、提示词契约、实操落地到记忆体系的完整认知闭环；第 8 篇起进入工程深耕板块，第 8 篇《AI 能记住了，但能自己干活吗？》已完稿。
 
@@ -219,7 +219,7 @@ Agent 是什么（已发布）
 - **工程师价值**：理解自己搭 Agent 必须先想清楚的设计决策——循环上限、工具单一职责、Token 预算、错误三级处理，并对照 OpenCode 看这些设计怎么落地。
 - **品牌钩子**：以 OpenCode 为参考系，指令层=AGENTS.md、工具=注册制、权限=Plan/Build 模式、错误处理=3 次上限+问人，落地"指令即架构""事件与决策分离"，自然引出 `agent-workflows` 与 `framework`。
 - **配图**：复用 `assets/agent-execution-system/` 的执行循环、聊天vs干活对比、工具权限边界、失败模式 4 张，新增第 6 张错误处理三级策略。
-- **发布状态**：已发布 CSDN（知乎、掘金待发布）。
+- **发布状态**：已发布 CSDN、知乎（掘金待发布）。
 
 ### 第 9 篇：知识库检索专题——RAG 与结构化检索
 
