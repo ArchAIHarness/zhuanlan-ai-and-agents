@@ -30,9 +30,9 @@
 7. [AI 能记住你做过的事吗？看懂三层记忆，你就知道怎么跟它长期合作](./AI能记住你做过的事吗.md)
     - 从 Agent 执行循环（感知→思考→行动→观察）切入，讲工作记忆、短期记忆、长期记忆的分层设计与组织方式。不是讲技术方案，是讲普通人怎么通过整理目录和文档让 AI 记住。
     - 发布状态：已发布。
-8. [自主推理框架——AI 怎么自己拆任务、自己修正](./自主推理框架.md)
-    - 用导航App的类比讲清ReAct循环、思维链、自我修正与人工接管点。不是AI变聪明了，是你给它设计了一套可执行的思考流程。
-    - 发布状态：已完成。
+8. [AI 能记住了，但能自己干活吗？——看懂执行系统，你就知道它怎么完成复杂任务](./自主推理框架.md)
+    - 用"一个人做事的流程"讲清 ReAct 循环、任务拆解、工具调用边界、出错三级处理，再对照 OpenCode 看这些设计怎么落地。不是 AI 变聪明了，是有人给它设计了一套做事的方法。
+    - 发布状态：已发布 CSDN。
 
 ## 阅读建议
 
@@ -45,20 +45,20 @@
 - 理解提示词的任务契约本质（第 5 篇）。
 - 用 OpenCode 跑通第一个实操闭环（第 6 篇）。
 - 最后理解怎么帮 AI 设计记忆，让它记住你做过的事（第 7 篇）。
-- 理解自主推理框架：AI怎么自己拆任务、自己修正，什么时候需要人介入（第 8 篇）。
+- 理解 AI 怎么靠执行系统完成复杂任务：ReAct 循环、任务拆解、工具调用、出错处理（第 8 篇）。
 
 ## 配图说明
 
 本专栏配图统一存放在 [`assets/`](./assets/) 下：
 
 - [`assets/ai-model-thinking/`](./assets/ai-model-thinking/)：AI 模型原理文章配图。
-- [`assets/agent-execution-system/`](./assets/agent-execution-system/)：Agent 执行系统文章配图。
+- [`assets/agent-execution-system/`](./assets/agent-execution-system/)：Agent 执行系统文章配图，第 2 篇与第 8 篇共用（02 = 聊天vs干活对比，03 = 执行循环，04 = 工具权限边界，05 = 失败模式，06 = 错误处理三级策略）。
 - [`assets/context-engineering/`](./assets/context-engineering/)：上下文工程文章配图。
 - [`assets/tool-skill-mcp/`](./assets/tool-skill-mcp/)：Tool、Skill、MCP 文章配图。
 - [`assets/prompt-contract/`](./assets/prompt-contract/)：提示词契约文章配图。
 - [`assets/ai-work-buddy/`](./assets/ai-work-buddy/)：AI 搭子/OpenCode 实操文章配图。
 - [`assets/ai-memory/`](./assets/ai-memory/)：三层记忆体系文章配图（00 = 办公桌三层全景，01 = 工作记忆，02 = 短期记忆，03 = 长期记忆组织方式，04 = 三种案例，05 = 三层协作流程）。
-- [`assets/reasoning-framework/`](./assets/reasoning-framework/)：自主推理框架文章配图（01 = 导航类比，02 = ReAct循环，03 = 思维链，04 = 人工接管点）。
+- [`assets/reasoning-framework/`](./assets/reasoning-framework/)：自主推理框架备用素材（01 = 导航类比，02 = ReAct循环，03 = 思维链，04 = 人工接管点），第 8 篇改版后正文未引用，保留备用。
 
 ## 关于本仓库
 
