@@ -26,21 +26,21 @@
 
 | # | 标题 | 状态 | 解决的问题 | 知乎 | CSDN | 掘金 |
 |---|---|---|---|---|---|---|
-| 1 | AI 模型到底是怎么"思考"的？ | 已发布 | AI 凭什么生成回答 | [链接](https://zhuanlan.zhihu.com/p/2049935040998646864) | [链接](https://blog.csdn.net/wzx_cx/article/details/162103878) | [链接](https://juejin.cn/post/7652748282574290994) |
-| 2 | Agent 到底是什么？ | 已发布 | AI 凭什么执行任务 | [链接](https://zhuanlan.zhihu.com/p/2050162148559549252) | [链接](https://blog.csdn.net/wzx_cx/article/details/162104144) | [链接](https://juejin.cn/post/7652541009060216842) |
-| 3 | AI 很强，但为什么还会"忘"？ | 已发布 | AI 凭什么判断当下该做什么 | [链接](https://zhuanlan.zhihu.com/p/2050600834275225889) | [链接](https://blog.csdn.net/wzx_cx/article/details/162104269) | [链接](https://juejin.cn/post/7652513657562742835) |
-| 4 | AI 怎么从"会回答"变成"会干活"？看懂 Tool、Skill 和 MCP | 已发布 | AI 凭什么操作外部世界 | [链接](https://zhuanlan.zhihu.com/p/2050966572882306331) | [链接](https://blog.csdn.net/wzx_cx/article/details/162115831) | [链接](https://juejin.cn/post/7652621263220523048) |
-| 5 | 别再找 Prompt 模板了：提示词的本质，是你和 AI 的任务契约 | 已发布 | 人怎么把任务清楚地交给 AI | [链接](https://zhuanlan.zhihu.com/p/2051352194537075133) | [链接](https://blog.csdn.net/wzx_cx/article/details/162129864) | [链接](https://juejin.cn/post/7652934507591155739) |
-| 6 | 从"会聊天"到"能干活"：用 OpenCode 给自己找个 AI 搭子 | 已发布 | 怎么把前 5 篇的理论落到真实工具里 | [链接](https://zhuanlan.zhihu.com/p/2051471471491471161) | [链接](https://blog.csdn.net/wzx_cx/article/details/162165596) | [链接](https://juejin.cn/post/7653442979388031014) |
-| 7 | AI 能记住你做过的事吗？看懂三层记忆，你就知道怎么跟它长期合作 | 已发布 | 怎么帮 AI 设计跨会话的长期记忆，让 Agent 可靠地工作 | [链接](https://zhuanlan.zhihu.com/p/2052088543468696412) | [链接](https://blog.csdn.net/wzx_cx/article/details/162174540) | [链接](https://juejin.cn/spost/7653533398468558857) |
+| 1 | AI 模型到底是怎么"思考"的？ | 全平台已发布 | AI 凭什么生成回答 | [链接](https://zhuanlan.zhihu.com/p/2049935040998646864) | [链接](https://blog.csdn.net/wzx_cx/article/details/162103878) | [链接](https://juejin.cn/post/7652748282574290994) |
+| 2 | Agent 到底是什么？ | 全平台已发布 | AI 凭什么执行任务 | [链接](https://zhuanlan.zhihu.com/p/2050162148559549252) | [链接](https://blog.csdn.net/wzx_cx/article/details/162104144) | [链接](https://juejin.cn/post/7652541009060216842) |
+| 3 | AI 很强，但为什么还会"忘"？ | 全平台已发布 | AI 凭什么判断当下该做什么 | [链接](https://zhuanlan.zhihu.com/p/2050600834275225889) | [链接](https://blog.csdn.net/wzx_cx/article/details/162104269) | [链接](https://juejin.cn/post/7652513657562742835) |
+| 4 | AI 怎么从"会回答"变成"会干活"？看懂 Tool、Skill 和 MCP | 全平台已发布 | AI 凭什么操作外部世界 | [链接](https://zhuanlan.zhihu.com/p/2050966572882306331) | [链接](https://blog.csdn.net/wzx_cx/article/details/162115831) | [链接](https://juejin.cn/post/7652621263220523048) |
+| 5 | 别再找 Prompt 模板了：提示词的本质，是你和 AI 的任务契约 | 全平台已发布 | 人怎么把任务清楚地交给 AI | [链接](https://zhuanlan.zhihu.com/p/2051352194537075133) | [链接](https://blog.csdn.net/wzx_cx/article/details/162129864) | [链接](https://juejin.cn/post/7652934507591155739) |
+| 6 | 从"会聊天"到"能干活"：用 OpenCode 给自己找个 AI 搭子 | 全平台已发布 | 怎么把前 5 篇的理论落到真实工具里 | [链接](https://zhuanlan.zhihu.com/p/2051471471491471161) | [链接](https://blog.csdn.net/wzx_cx/article/details/162165596) | [链接](https://juejin.cn/post/7653442979388031014) |
+| 7 | AI 能记住你做过的事吗？看懂三层记忆，你就知道怎么跟它长期合作 | 全平台已发布 | 怎么帮 AI 设计跨会话的长期记忆，让 Agent 可靠地工作 | [链接](https://zhuanlan.zhihu.com/p/2052088543468696412) | [链接](https://blog.csdn.net/wzx_cx/article/details/162174540) | [链接](https://juejin.cn/post/7653533398468558857) |
 | 8 | AI 能记住了，但能自己干活吗？——看懂执行系统，你就知道它怎么完成复杂任务 | 已发布 | 怎么给 AI 设计执行系统，让它既自主又不出格 | [链接](https://zhuanlan.zhihu.com/p/2052400473282548080) | [链接](https://blog.csdn.net/wzx_cx/article/details/162181623) | — |
-| 9 | RAG 的关键从来不是向量——是你能不能把对的内容捞出来 | 已发布 | AI 凭什么从海量资料里找到对的内容 | 待补链接 | 待补链接 | 待补链接 |
+| 9 | RAG 的关键从来不是向量——是你能不能把对的内容捞出来 | 全平台已发布 | AI 凭什么从海量资料里找到对的内容 | [链接](https://zhuanlan.zhihu.com/p/2052630355472020295) | [链接](https://blog.csdn.net/wzx_cx/article/details/162219052) | [链接](https://juejin.cn/post/7654022301877436466) |
 | 10 | 多智能体不是堆 AI——跟着一个"AI 编辑部"看协作怎么跑通 | 已完成 | 多个 AI 怎么靠秩序协作把活干成 | — | — | — |
 | 11 | 别问哪个 AI 工具最好——我换了一圈才想明白的几件事 | 已完成 | 怎么判断一个 AI 协作工具值不值得长期投入 | — | — | — |
 | 12 | 从一个 AI 到一支 AI 团队——手把手调教你的多智能体班子 | 已完成 | 怎么亲手搭一套能协作的多智能体班子 | — | — | — |
 | 13 | 给 AI 长出一件新本事——插件不用敲，是聊出来的 | 已完成 | 普通人怎么不写代码也能给 AI 造一件新工具 | — | — | — |
 
-前 7 篇完成了从模型生成、Agent 执行、上下文约束、外部能力体系、提示词契约、实操落地到记忆体系的完整认知闭环；第 8 篇起进入工程深耕板块，第 8 篇已发布，第 9 篇《RAG 的关键从来不是向量》文稿+配图完成、待发布，第 10 篇《多智能体不是堆 AI》、第 11 篇《别问哪个 AI 工具最好》、第 12 篇《从一个 AI 到一支 AI 团队》、第 13 篇《给 AI 长出一件新本事》正文+配图完成、待发布。第 12 篇把协作秩序落到读者手把手搭班子，第 13 篇把"造能力"落到不写代码、靠聊立规矩让 AI 长出插件。第 13 篇之后专栏转入开放式长期连载：不设收束/升华终章，按场景、按想法一篇分享一个有实用价值的插件或 agent 开发，持续输出、不封口。
+前 7 篇完成了从模型生成、Agent 执行、上下文约束、外部能力体系、提示词契约、实操落地到记忆体系的完整认知闭环；第 8 篇起进入工程深耕板块，第 8 篇已发布，第 9 篇《RAG 的关键从来不是向量》已全平台发布（知乎、CSDN、掘金），第 10 篇《多智能体不是堆 AI》、第 11 篇《别问哪个 AI 工具最好》、第 12 篇《从一个 AI 到一支 AI 团队》、第 13 篇《给 AI 长出一件新本事》正文+配图完成、待发布。第 12 篇把协作秩序落到读者手把手搭班子，第 13 篇把"造能力"落到不写代码、靠聊立规矩让 AI 长出插件。第 13 篇之后专栏转入开放式长期连载：不设收束/升华终章，按场景、按想法一篇分享一个有实用价值的插件或 agent 开发，持续输出、不封口。
 
 ## 三、整体脉络
 
@@ -678,6 +678,7 @@ CSDN 编辑器的 Markdown 发布流程必须遵守以下顺序，**每一步不
 
 - AI 必须确认 URL 是文章详情页（包含文章 ID/路径），不是专栏首页或列表页；
 - 用户手动发布后无需复制链接，只需告知 AI"发布了"或 AI 通过浏览器自动检测到页面跳转后自行捕获；
+- **掘金链接格式归一**：掘金为自动审核，审核中链接是 `https://juejin.cn/spost/{id}`，自动审核通过后前缀变为 `post`（同一 id）：`https://juejin.cn/post/{id}`。进度表与 `metadata.json` 一律归档为 `post/` 正式格式，不保留 `spost/`；
 - 三个平台（知乎、CSDN、掘金）都发布完成后，标记该篇为「全平台已发布」。
 
 **注意：** AI 助手仍然**不得**点击「发布」「发表」「定时发布」等公开按钮（遵循 §7.4 门禁），发布动作必须由用户执行；AI 只负责发布后的链接自动捕获与归档。
