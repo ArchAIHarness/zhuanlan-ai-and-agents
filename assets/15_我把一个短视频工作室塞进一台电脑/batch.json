@@ -1,0 +1,6 @@
+[
+  { "promptFiles": ["prompts/cover.md"], "image": "../cover.png", "ar": "16:9", "quality": "2k" },
+  { "promptFiles": ["prompts/01-org-chart.md"], "image": "../01-org-chart.png", "ar": "16:9", "quality": "2k" },
+  { "promptFiles": ["prompts/02-folder-is-team.md"], "image": "../02-folder-is-team.png", "ar": "16:9", "quality": "2k" },
+  { "promptFiles": ["prompts/03-knowledge-memory.md"], "image": "../03-knowledge-memory.png", "ar": "16:9", "quality": "2k" }
+]
