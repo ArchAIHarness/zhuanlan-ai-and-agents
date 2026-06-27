@@ -1,0 +1,17 @@
+[
+  {
+    "prompt": "A hand-drawn educational decision matrix/flowchart. Warm cream paper background with black sketch lines. A 2x2 grid with columns '行业信号向上' / '行业信号向下' and rows '有兴趣' / '没兴趣'. Each cell has a clear recommendation: top-left '扛', top-right '换行业(跟兴趣走)', bottom-left '换方向(行业不变)', bottom-right '换行业(系统性重来)'. A person icon in each cell showing the action. Soft pastel color blocks in orange, green, blue. Handwritten Chinese labels. Subtle 'ArchAIHarness' watermark. No 3D.",
+    "image": "/Users/weizuxiao/Documents/workspaces/看懂AI与智能体/assets/22_卡在FDE入门的哪一步了/01-decision-matrix.png",
+    "ar": "16:9"
+  },
+  {
+    "prompt": "A hand-drawn educational infographic. Warm cream paper background with black sketch lines. Three columns, one for each FDE step. Column 1 '找行业' shows three failure icons: low ceiling, fake demand, red ocean. Column 2 '定方向' shows: too narrow, too broad, fake demand. Column 3 '以身入局' shows: can't enter, wrong entry, stuck. Each failure has a small signal icon (magnifying glass) and a brief text label. Soft pastel color blocks in orange, green, blue. Handwritten Chinese labels. Subtle 'ArchAIHarness' watermark.",
+    "image": "/Users/weizuxiao/Documents/workspaces/看懂AI与智能体/assets/22_卡在FDE入门的哪一步了/02-failure-modes.png",
+    "ar": "16:9"
+  },
+  {
+    "prompt": "A hand-drawn educational illustration. Warm cream paper background with black sketch lines. A person standing at a crossroads with two signs: '硬扛' and '换牌'. Three gates behind them labeled '找行业', '定方向', '以身入局', each with a crack or warning sign. The person is looking at the signs, thinking. Soft pastel color blocks in orange, green, blue. Handwritten Chinese labels. Simple icons. Subtle 'ArchAIHarness' watermark. 16:9.",
+    "image": "/Users/weizuxiao/Documents/workspaces/看懂AI与智能体/assets/22_卡在FDE入门的哪一步了/cover.png",
+    "ar": "16:9"
+  }
+]

@@ -37,3 +37,4 @@ temp/
 
 # Doubao speech config (local API keys)
 .doubao-speech/
+.playwright-mcp/
