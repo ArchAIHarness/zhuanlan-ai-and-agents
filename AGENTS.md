@@ -619,13 +619,24 @@ Agent 是什么（已发布）
   - **设计阶段**：① 限界上下文划分——AI 怎么参与决策(基于业务能力/团队结构/变化频率划边界,决策可见、可审计);② 上下文映射——AI 怎么识别上下文关系(自动建议映射类型,人审核确认);③ 聚合根设计——AI 怎么找聚合根边界(基于写操作一致性边界);④ 领域事件清单——AI 怎么枚举事件(基于业务流程的关键节点)。
   - **研发阶段**：① 分层架构纪律——AI 怎么守"domain 零 Spring"红线(framework 的 domain 层不依赖 Spring);② 充血模型——AI 怎么写充血模型(行为归实体,数据归值对象);③ 领域事件发布——AI 怎么用领域事件解耦上下文(Kafka/RocketMQ 事件发布规范);④ 测试护栏——AI 怎么用 TDD 守边界(覆盖率 ≥ 90% + Given-When-Then + P0 红线阻塞);⑤ AGENTS.md 立规矩——AI 怎么读 AGENTS.md 守边界(readme 给人看,AGENTS.md 给 AI 看)。
   - **交付阶段**：① 版本化部署——AI 怎么按领域边界发版(每个上下文独立版本号);② 灰度发布——AI 怎么配灰度策略(按上下文粒度灰度);③ 领域变更回滚——AI 怎么回滚领域变更(事件反向补偿 / 事务回滚);④ 监控指标——AI 怎么埋领域级指标(每个上下文独立监控)。
-- **真实锚点(必须命中,工程师价值所在)**：
-  - **framework 仓库的四层架构**——domain / application / infrastructure / interfaces 四层分明,domain 层不依赖 Spring 框架;
-  - **framework 仓库的双文档体系**——readme.md 给人看,AGENTS.md 给 AI 看;
-  - **framework 仓库的 TDD 纪律**——覆盖率 ≥ 90% + Given-When-Then + P0/P1/P2 分级阻塞;
-  - **framework 仓库的领域事件规范**——DomainEvent 必须 `@NoArgsConstructor` + 字段非 final(Jackson 反序列化要求);
+- **真实锚点(必须命中,工程师价值所在)**【2026-07-01 已按 framework 拆解档案逐条校准,F1-F21 见 `framework/docs/superpowers/specs/2026-07-01-framework-decomposition.md` §8】:
+  - **framework 仓库的六模块分层**(F1)——bootstrap / interfaces / application / domain / infrastructure / common 六 module 严格依赖方向,**铁律**:`common ↛ 任何框架`、`domain ↛ Spring`、`domain ↛ infrastructure/interfaces`。
+  - **common 与 domain 零框架依赖**(F2)——纯 Java + Lombok + jackson-annotations,这是"边界焊死"的工程化身,AI 在边界内只能靠纯逻辑写代码。
+  - **聚合根基类 + 自带事件注册**(F3)——`AggregateRoot` 自带 `private final List<DomainEvent>`,业务方法 `updateEmail / deactivate / addTenant` 直接 `registerEvent()`,Application 层事务提交后由 `@TransactionalEventListener` 触发真正发布。
+  - **DomainEvent 基类自动 eventId**(F4)——`eventId=UUID / occurredAt=now / eventType=Class.getSimpleName` 基类构造函数自动注入,**业务事件子类无需手写 eventId**。
+  - **`@OnEvent` + `IdempotentAspect` 自动幂等**(F9)——消费方通过 `eventId` 切面去重,**业务代码完全无需手写幂等**;框架当前 P2 改进:内存 Set 适合单实例,分布式建议 DB/Redis。
+  - **User 聚合根双工厂**(F6)——`create()` 走 Builder,生成 ID + 注册事件;`reconstruct()` 私有构造函数,**不生成 ID、不注册事件、不校验**——专供 infrastructure 从 DB 重建。通过构造权限分离,杜绝"重建出来再发事件"的 bug。
+  - **AppService 写流程标准动作**(F8)——`@Transactional` → 校验 → `User.create / userRepository.save / eventPublisher.publish / user.clearDomainEvents`。**`clearDomainEvents()` 是必须调用的清理动作**,否则下一笔事务会重发。
+  - **PBAC 权限码 `资源:操作` 规范**(F11/F12)——`@RequirePolicy(permissionCode = "USER:CREATE")` 固定码 / `@RequirePermission(resource + action)` 动态 SpEL;权限码命名统一 `USER:DELETE / ORDER:VIEW` 形式。
+  - **网关 Header 透传规范**(F13)——`x-user-id` / `x-tenant-id` / `x-accessible-tenants` / `x-tenant-permissions`;`AppContext` 请求级 ThreadLocal + 异步线程通过 `ContextTaskDecorator` 自动透传。
+  - **统一响应 + 自动包装**(F14)——`R<T>` + `ResponseBodyWrapper`,**Controller 不手动包 R**(双重包装自动防护)。
+  - **统一异常 + 工厂方法**(F15)——只有 `DomainException` 一个类,code 区分场景,**不允许子类、不允许 `new`**;只能 `DomainException.notFound("User", id)` 这种工厂方式。
+  - **值对象强制 ID 类型**(F16)——用户/租户/订单 ID 必须是 `UserId / TenantId / OrderId` 值对象(提供 `of(String)` 与 `generate()`),**禁止用 `String` 或 `Long`**;状态用枚举(`UserStatus.ACTIVE/DEACTIVATED/LOCKED`),不魔字符串。
+  - **双文档体系**(F-style)——`readme.md`(人友好,讲架构+示例)/ `AGENTS.md`(AI 友好,P0/P1/P2 分级清单 + 禁止事项);同一套秩序两种表达。
+  - **JaCoCo 强制覆盖率**(F18)——全集 LINE ≥ 70% / BRANCH ≥ 30%;**common 与 domain 各层要求 ≥ 90%**(行/分支双门槛),作为 P0 准入。
+  - **仓储实现细节注意**(F20 P2)——framework 自身有一处已知 P2:`UserRepositoryImpl.save()` 返回原 `user` 对象而非 `saved.toDomain()`,可能导致"返回实例"与"DB 实际"漂移;**30 篇引用时不要把这条当最佳实践讲**,反而要反向提"应返回 `saved.toDomain()`"作为对 AI 的纪律要求。
   - **gateway 仓库的上下文映射落地**——6 个 SPI 接口 + `@ConditionalOnMissingBean` 让 AI 按需替换;
-  - **28 篇已用过的三个限界上下文**——auth-center / user-center / tenant-center 三者之间的 Feign 客户-供应商 + Kafka 事件发布-订阅。
+  - **28 篇已用过的三个限界上下文**——auth-center / user-center / tenant-center 三者之间的 Feign 客户-供应商 + Kafka 事件发布-订阅(注:这是 28 篇实战案例的引用,与 framework 仓本身无关,30 篇保留作为承接)。
 - **预计结构(7-8 节,开写前定稿)**：① 反差开场——DDD 写了文档,AI 还是乱写;DDD 真正融入 AI 开发的关键不是文档,是边界;② **需求阶段**——AI 怎么用统一语言对话 + 参与事件风暴 + 落到结构化用例规约(以 framework 的"业务对话模板"为锚);③ **设计阶段**——AI 怎么参与限界上下文划分 + 上下文映射 + 聚合根设计 + 领域事件枚举(以 framework 的"模型评审 checklist"为锚);④ **研发阶段**——AI 怎么守分层纪律(domain 零 Spring) + 写充血模型 + 发领域事件 + 用 TDD 守边界 + 读 AGENTS.md 立规矩(以 framework 的"AGENTS.md 硬规范"为锚);⑤ **交付阶段**——AI 怎么按领域边界发版 + 配灰度策略 + 回滚领域变更 + 埋领域级指标(以 framework 的"版本化部署脚本"为锚);⑥ **四阶段全景图**——一张图把四个阶段的 AI 动作串起来,呼应 29 篇的"四阶段产物链条";⑦ **写在最后**(无预告,双数实践篇以金句收束)。
 - **核心金句**：
   - "DDD 不会用 = 没用,DDD 不会融入 AI = 纸面工程。"
