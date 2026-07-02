@@ -1,0 +1,59 @@
+{
+  "jobs": 6,
+  "tasks": [
+    {
+      "id": "cover",
+      "promptFiles": ["/Users/weizuxiao/Documents/studio/01-内容创作/看懂AI与智能体/assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/prompts/cover.md"],
+      "image": "/Users/weizuxiao/Documents/studio/01-内容创作/看懂AI与智能体/assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/cover.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-5.0-lite",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "01-raw-requirement-bubble-and-laptop",
+      "promptFiles": ["/Users/weizuxiao/Documents/studio/01-内容创作/看懂AI与智能体/assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/prompts/01-raw-requirement-bubble-and-laptop.md"],
+      "image": "/Users/weizuxiao/Documents/studio/01-内容创作/看懂AI与智能体/assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/01-raw-requirement-bubble-and-laptop.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-5.0-lite",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "02-radar-add-eight-dimensions",
+      "promptFiles": ["/Users/weizuxiao/Documents/studio/01-内容创作/看懂AI与智能体/assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/prompts/02-radar-add-eight-dimensions.md"],
+      "image": "/Users/weizuxiao/Documents/studio/01-内容创作/看懂AI与智能体/assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/02-radar-add-eight-dimensions.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-5.0-lite",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "03-dialogue-timeline-with-summary-gate",
+      "promptFiles": ["/Users/weizuxiao/Documents/studio/01-内容创作/看懂AI与智能体/assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/prompts/03-dialogue-timeline-with-summary-gate.md"],
+      "image": "/Users/weizuxiao/Documents/studio/01-内容创作/看懂AI与智能体/assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/03-dialogue-timeline-with-summary-gate.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-5.0-lite",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "04-json-knowledge-tree",
+      "promptFiles": ["/Users/weizuxiao/Documents/studio/01-内容创作/看懂AI与智能体/assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/prompts/04-json-knowledge-tree.md"],
+      "image": "/Users/weizuxiao/Documents/studio/01-内容创作/看懂AI与智能体/assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/04-json-knowledge-tree.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-5.0-lite",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "05-fde-three-way-collaboration",
+      "promptFiles": ["/Users/weizuxiao/Documents/studio/01-内容创作/看懂AI与智能体/assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/prompts/05-fde-three-way-collaboration.md"],
+      "image": "/Users/weizuxiao/Documents/studio/01-内容创作/看懂AI与智能体/assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/05-fde-three-way-collaboration.png",
+      "provider": "seedream",
+      "model": "doubao-seedream-5.0-lite",
+      "ar": "16:9",
+      "quality": "2k"
+    }
+  ]
+}
