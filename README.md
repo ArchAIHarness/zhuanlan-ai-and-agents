@@ -99,7 +99,7 @@
 30. [TDD 完整指南——AI 时代工程师的全流程自动化审计](./30_TDD完整指南——AI时代工程师的全流程自动化审计.md)
     - FDE 系列延伸 29-32 的第 2 篇。承接 29 末尾"TDD 是 CI/CD 里的试菜员"预告。核心论点"DDD 锁业务赛道，代码逻辑对不对要靠 TDD 卡死；TDD 是焊死的闸，AI 写错时直接拦截退回"。核心比喻"试菜员"（延续 29 后厨）。真实锚点：JaCoCo 90% 强制覆盖率 + P0/P1/P2 分级 + Given-When-Then + Mock 边界规范。行业数据：aiXcoder/金融行业线上缺陷 -34%、人工复审 -50%。末尾预告 31 SDD 双端 + 留白区。
     - 发布状态：设计阶段，正稿尚未开始；2026-07-01 brainstorming 流程产出并落盘完整 spec 至 `AGENTS.md` §四 + illustration-briefs/30。
-31. [SDD 双端完整指南——Spec 端打底、Story 端交付、留白区](./31_SDD双端完整指南——Spec端打底、Story端交付、留白区.md)
+31. [SDD 完整指南](./31_SDD完整指南.md)
     - FDE 系列延伸 29-32 的第 3 篇。承接 30 末尾"SDD 双端 + 留白区"预告。核心创新"SDD 不是单次临时提示词，是双端架构：Spec 端（AI 工作台前置打底，人长期沉淀）+ Story 端（交付阶段，工程师唯一交互入口）"。留白区是整套方法论差异化亮点——DDD 锁赛道 + TDD 卡审计 + Spec 固技术三层刚性约束之外，纯技术实现细节完全交 AI 自主。行业数据：腾讯云 BMAD -65% / aiXcoder 银行 10%→35% / SpecStory Studio 1.01 次 10x 85.7% / 海外 Fintech 14 人 9 月→11 周 故障 17→3。末尾预告 32 framework 整合实战。
     - 发布状态：设计阶段，正稿尚未开始；2026-07-01 brainstorming 流程产出并落盘完整 spec 至 `AGENTS.md` §四 + illustration-briefs/31。
 32. [framework 整合实战——DDD/TDD/SDD 三件套在 framework 仓的真实落地](./32_framework整合实战——DDD-TDD-SDD三件套在framework仓的真实落地.md)

@@ -38,3 +38,6 @@ temp/
 # Doubao speech config (local API keys)
 .doubao-speech/
 .playwright-mcp/
+
+# User working materials (materials sourced for reference, not repo content)
+素材/
