@@ -1,6 +1,0 @@
-[
-  { "promptFiles": ["prompts/cover.md"], "image": "cover.png", "ar": "16:9", "quality": "2k" },
-  { "promptFiles": ["prompts/01-goal-and-guardrail.md"], "image": "01-goal-and-guardrail.png", "ar": "16:9", "quality": "2k" },
-  { "promptFiles": ["prompts/02-trial-error-loop.md"], "image": "02-trial-error-loop.png", "ar": "16:9", "quality": "2k" },
-  { "promptFiles": ["prompts/03-the-locked-gate.md"], "image": "03-the-locked-gate.png", "ar": "16:9", "quality": "2k" }
-]

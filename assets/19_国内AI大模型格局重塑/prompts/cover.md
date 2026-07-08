@@ -1,3 +1,0 @@
-A hand-drawn educational illustration style image. Warm cream paper background with black sketch lines. The scene shows a card table/game table being flipped over — one side has "Chatbot 时代" written on it with cards labeled "模型", "产品", "流量", "变现" stacked in a winning tower. The other side shows a new table with "Agent 时代" label and new cards: "模型权重↑", "系统级Agent", "端到端执行". Soft pastel color blocks in orange, green, blue. Simple line icons. Handwritten Chinese labels. Subtle "ArchAIHarness" watermark at bottom right. No dark backgrounds, no 3D, no realistic people. 16:9 aspect ratio.
-
-Title: 国内AI大模型格局重塑：从Chatbot到Agent，赢家换了
