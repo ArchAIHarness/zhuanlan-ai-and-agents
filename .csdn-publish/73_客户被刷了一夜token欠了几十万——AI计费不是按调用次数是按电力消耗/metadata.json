@@ -1,0 +1,14 @@
+{
+  "articleId": "162677195",
+  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162677195",
+  "title": "客户被刷了一夜token欠了几十万——AI计费不是按调用次数是按电力消耗",
+  "slug": "73_客户被刷了一夜token欠了几十万——AI计费不是按调用次数是按电力消耗",
+  "imageCount": 5,
+  "tags": ["人工智能", "AI编程", "后端"],
+  "column": "看懂AI和智能体",
+  "summary": "客户被刷了一夜token欠了几十万——AI计费不是按调用次数是按电力消耗。把模糊的\"AI账单爆炸\"剥成三类异常（恶意刷量/业务突增/配置错误）+ 四个真需求。AI用得越多亏得越多。",
+  "cover": "cover.png",
+  "cover_hash": "69406b44046a4bf9ba9a8df85c83d22c",
+  "status": "草稿已就绪",
+  "saved_at": "2026-07-07"
+}
