@@ -1,0 +1,14 @@
+{
+  "articleId": "162676587",
+  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162676587",
+  "title": "AI幻觉不是用更大模型解决——RAG增强+引用溯源+置信度标注让AI开口必带出处",
+  "slug": "72_AI幻觉不是用更大模型解决——RAG增强加引用溯源加置信度标注让AI开口必带出处",
+  "imageCount": 5,
+  "tags": ["人工智能", "AI编程", "后端"],
+  "column": "看懂AI和智能体",
+  "summary": "四道闸（RAG检索增强/引用溯源标注/置信度评分/兜底说\"我不知道\"）+ 五类工程实践（向量库/Embedding/Rerank/监控/工程化清单）。AI幻觉不是用更大模型解决，是用工程纪律兜住。",
+  "cover": "cover.png",
+  "cover_hash": "ab7158dbd2f841f29f9a5be338b556af",
+  "status": "草稿已就绪",
+  "saved_at": "2026-07-07"
+}
