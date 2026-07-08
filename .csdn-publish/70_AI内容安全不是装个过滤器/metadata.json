@@ -1,0 +1,14 @@
+{
+  "articleId": "162675755",
+  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162675755",
+  "title": "AI内容安全不是装个过滤器——四层审核流水线把违禁内容挡在用户看见之前",
+  "slug": "70_AI内容安全不是装个过滤器——四层审核流水线把违禁内容挡在用户看见之前",
+  "imageCount": 5,
+  "tags": ["人工智能", "AI编程", "后端"],
+  "column": "看懂AI和智能体",
+  "summary": "四层审核流水线（关键词黑名单→专用小模型→大模型精分类→人工抽检）+ 五道闸（输入/输出/版权/水印/申诉）+ 三大版权检测技术（pHash/CLIP嵌入/TinEye）。AI内容安全不是装个过滤器，是给每个用户发一把守门钥匙。",
+  "cover": "cover.png",
+  "cover_hash": "e79a7be327bc4183bf1cbb1448ce3c81",
+  "status": "草稿已就绪",
+  "saved_at": "2026-07-07"
+}
