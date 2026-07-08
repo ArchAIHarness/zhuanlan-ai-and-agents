@@ -3,12 +3,27 @@
   "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162676587",
   "title": "AI幻觉不是用更大模型解决——RAG增强+引用溯源+置信度标注让AI开口必带出处",
   "slug": "72_AI幻觉不是用更大模型解决——RAG增强加引用溯源加置信度标注让AI开口必带出处",
-  "imageCount": 5,
+  "imageCount": 3,
   "tags": ["人工智能", "AI编程", "后端"],
   "column": "看懂AI和智能体",
   "summary": "四道闸（RAG检索增强/引用溯源标注/置信度评分/兜底说\"我不知道\"）+ 五类工程实践（向量库/Embedding/Rerank/监控/工程化清单）。AI幻觉不是用更大模型解决，是用工程纪律兜住。",
   "cover": "cover.png",
   "cover_hash": "ab7158dbd2f841f29f9a5be338b556af",
   "status": "草稿已就绪",
-  "saved_at": "2026-07-07"
+  "saved_at": "2026-07-08",
+  "last_checked_at": "2026-07-08T23:22",
+  "last_status": "fixed",
+  "last_fixes": [
+    "[2026-07-08 23:22 验证+修复] 3 张占位符图全部上传为真实 CDN URL(6c73b26d/6cbb49ad/9a7aba69)",
+    "[2026-07-08 23:22] imageCount 从 5 修正为 3(.text.md 实际只引用 3 张图: 01-RAG检索增强架构/02-引用溯源时间线/03-置信度评分热力图;04-05 在 assets 里有但正文未引用,按实际处理)",
+    "[2026-07-08 23:22] 原只有 1 个标签「人工智能」,加 2 个正确标签: ai编程 / 后端",
+    "[2026-07-08 23:22] 专栏「看懂AI和智能体」勾上",
+    "[2026-07-08 23:22] saveArticle 自动保存成功",
+    "封面/摘要 139 字/原创/公开/多平台否 全部正确"
+  ],
+  "image_cdn_hashes": [
+    "6c73b26ddb4742bbbd422e5dc6bd2742",
+    "6cbb49ad43c24d2ea8f52203c6ebc7dd",
+    "9a7aba692cff4d53a9d121a9ea649f50"
+  ]
 }

@@ -1,3 +1,5 @@
 .tmp/
 .publish/
 *.bak.png
+.var/
+.var/

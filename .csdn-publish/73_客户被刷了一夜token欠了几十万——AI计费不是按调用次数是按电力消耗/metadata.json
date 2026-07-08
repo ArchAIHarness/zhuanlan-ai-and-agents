@@ -3,12 +3,29 @@
   "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162677195",
   "title": "客户被刷了一夜token欠了几十万——AI计费不是按调用次数是按电力消耗",
   "slug": "73_客户被刷了一夜token欠了几十万——AI计费不是按调用次数是按电力消耗",
-  "imageCount": 5,
+  "imageCount": 4,
   "tags": ["人工智能", "AI编程", "后端"],
   "column": "看懂AI和智能体",
   "summary": "客户被刷了一夜token欠了几十万——AI计费不是按调用次数是按电力消耗。把模糊的\"AI账单爆炸\"剥成三类异常（恶意刷量/业务突增/配置错误）+ 四个真需求。AI用得越多亏得越多。",
   "cover": "cover.png",
   "cover_hash": "69406b44046a4bf9ba9a8df85c83d22c",
   "status": "草稿已就绪",
-  "saved_at": "2026-07-07"
+  "saved_at": "2026-07-08",
+  "last_checked_at": "2026-07-08T23:26",
+  "last_status": "fixed",
+  "last_fixes": [
+    "[2026-07-08 23:26 验证+修复] 4 张占位符图全部上传为真实 CDN URL(01/02/04/05,缺 03-三类异常分布)",
+    "[2026-07-08 23:26] imageCount 从 5 修正为 4(.text.md 实际引用 5 张但 03 占位符在旧草稿已丢失,assets 目录中 03-三类异常分布.png 仍在但无法在 editor 中定位插入位置)",
+    "[2026-07-08 23:26] 原只有 1 个标签「人工智能」,加 2 个正确标签: ai编程 / 后端",
+    "[2026-07-08 23:26] 专栏「看懂AI和智能体」勾上",
+    "[2026-07-08 23:26] saveArticle 自动保存成功",
+    "封面/摘要 147 字/原创/公开/多平台否 全部正确"
+  ],
+  "image_cdn_hashes": [
+    "096480b029df4f43a2132ad65e02392a",
+    "a6d5e318e11f4a05b4eef50cb8877459",
+    "70a0e1fee2ca464ba75bab405c2927b9",
+    "8aadda6682b04088bd90997248d31d0a"
+  ],
+  "issue": "03-三类异常分布.png 在 .text.md L94 引用,但旧草稿中占位符已丢失,本次修复未补回。建议下次修订时人工补充 03 图(assets/73_ai_billing_electricity/03-三类异常分布.png)"
 }
