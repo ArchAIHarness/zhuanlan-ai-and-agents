@@ -1,0 +1,14 @@
+{
+  "articleId": "162671314",
+  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162671314",
+  "title": "AI推理成本不是按token计费那么简单——GPU利用率+显存调度+批处理三道闸把电费降到1/3",
+  "slug": "66_AI推理成本不是按token计费那么简单——GPU利用率加显存调度加批处理三道闸把电费降到三分之一",
+  "imageCount": 5,
+  "tags": ["人工智能", "AI编程", "后端"],
+  "column": "看懂AI和智能体",
+  "summary": "三道闸（GPU利用率提升+显存调度+批处理）+ 五类优化（量化/蒸馏/缓存/路由/降级）把推理成本压到原来的1/3到1/10。AI推理成本不是省出来的，是设计出来的。",
+  "cover": "cover.png",
+  "cover_hash": "8a86cd34bf294f189ecc5124c2582721",
+  "status": "草稿已就绪",
+  "saved_at": "2026-07-07"
+}

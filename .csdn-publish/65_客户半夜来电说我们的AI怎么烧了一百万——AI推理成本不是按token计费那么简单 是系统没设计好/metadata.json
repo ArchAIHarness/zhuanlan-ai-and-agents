@@ -1,0 +1,14 @@
+{
+  "articleId": "162671276",
+  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162671276",
+  "title": "客户半夜来电说\"我们的AI怎么烧了一百万\"——AI推理成本不是按token计费那么简单，是系统没设计好",
+  "slug": "65_客户半夜来电说我们的AI怎么烧了一百万——AI推理成本不是按token计费那么简单 是系统没设计好",
+  "imageCount": 5,
+  "tags": ["人工智能", "AI编程", "后端"],
+  "column": "看懂AI和智能体",
+  "summary": "客户半夜来电\"我们的AI怎么烧了一百万\"——AI推理成本不是按token计费那么简单，是系统没设计好。把模糊的\"AI太贵\"剥成四种隐藏成本（输入token/输出token/KV cache显存/重试风暴）+ 四个真需求。下篇卷袖子干活讲三道闸把电费降到1/3。",
+  "cover": "cover.png",
+  "cover_hash": "f93d3de465584791be0aab5ef8c4005e",
+  "status": "草稿已就绪",
+  "saved_at": "2026-07-07"
+}
