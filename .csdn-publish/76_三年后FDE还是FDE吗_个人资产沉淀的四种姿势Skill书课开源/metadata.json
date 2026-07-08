@@ -1,14 +1,21 @@
 {
-  "articleId": "",
-  "draft_url": "",
+  "articleId": "162708266",
+  "draft_url": "https://editor.csdn.net/md?not_checkout=1&rw=1&articleId=162708266",
   "title": "三年后FDE还是FDE吗——个人资产沉淀的四种姿势（Skill/书/课/开源）",
   "slug": "76_三年后FDE还是FDE吗_个人资产沉淀的四种姿势Skill书课开源",
   "imageCount": 5,
   "tags": ["人工智能", "AI编程", "后端"],
   "column": "看懂AI和智能体",
-  "summary": "三年后FDE还是FDE吗——把手艺变成招牌，招牌不会失业。个人资产沉淀四种姿势：Skill开源（写给自己用1次被别人用100次）/ 书（小报童电子书2年订阅2000+）/ 课（慕课付费课1500+订阅）/ 开源项目（5年长期信用账户）。四种姿势不是四选一，是四种叠加——分阶段做，1年Skill、2年书、3年课、4-5年开源。个人品牌飞轮：写作→社区→机会→写作。手艺人靠手艺吃饭，招牌菜靠招牌吃饭。敢上新是勇气，能收住才是本事。",
+  "summary": "三年后FDE还是FDE吗——把手艺变成招牌，招牌不会失业。个人资产沉淀四种姿势：Skill开源（写给自己用1次被别人用100次）/ 书（小报童电子书2年订阅2000+）/ 课（慕课付费课1500+订阅）/ 开源项目（5年长期信用账户）。四种姿势不是四选一，是四种叠加——分阶段做。个人品牌飞轮：写作→社区→机会→写作。",
   "cover": "cover.png",
-  "cover_hash": "",
-  "status": "草稿就绪",
-  "saved_at": "2026-07-08"
+  "cover_hash": "c96b23b19d2c4637828e2f10974c11eb",
+  "status": "草稿已就绪",
+  "saved_at": "2026-07-09",
+  "last_checked_at": "2026-07-09T08:48",
+  "last_status": "issue",
+  "last_fixes": [
+    "[2026-07-09 08:48 新建完成] articleId=162708266。5 张图(01-four-postures-matrix/02-skill-open-source/03-ebook-cover/04-course-platform/05-final-quote)按 anchor 反向插入→cdn 验证:c96b23b1/931d69a0/af0dee72/fd423214/49f33c7c",
+    "[2026-07-09 08:48] 封面已设(hash c96b23b19d2c),摘要 159 字已填,标签 3 个(人工智能·AI编程·后端),原创/全部可见/多平台=否",
+    "[2026-07-09 已知 issue] 专栏「看懂AI和智能体」持久化失败(同上,所有 67-73 同病)"
+  ]
 }

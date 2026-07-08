@@ -1,6 +1,6 @@
 {
   "articleId": "162677241",
-  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162677241",
+  "draft_url": "https://editor.csdn.net/md?not_checkout=1&rw=1&articleId=162677241",
   "title": "AI计费不是按调用次数——用量计量+三级限额+告警把恶意刷量挡在发生之前",
   "slug": "74_AI计费不是按调用次数——用量计量加三级限额加告警把恶意刷量挡在发生之前",
   "imageCount": 5,
@@ -10,5 +10,13 @@
   "cover": "cover.png",
   "cover_hash": "9c639ab1c7114425905391677c0ef919",
   "status": "草稿已就绪",
-  "saved_at": "2026-07-07"
+  "saved_at": "2026-07-09",
+  "last_checked_at": "2026-07-09T07:48",
+  "last_status": "issue",
+  "last_fixes": [
+    "[2026-07-09 07:48 二次复核+修复] 多余标签「mysql」删除,保留 3 个目标标签(人工智能/AI编程/后端)",
+    "[2026-07-09 07:48 验证] 5 张图(7c98f1fb/855eb508/eeaca524/6f41d745/5406a871)全 i-blog CDN,正文 14838 字符完整,封面已设,摘要 173 字,原创/全部可见/多平台发布=否",
+    "[2026-07-09 07:48] 保存草稿成功(.el-message「文章已保存」)",
+    "[2026-07-09 已知 issue] 专栏「看懂AI和智能体」本次未单独验证持久化状态(与其他 9 篇同病),建议主编手动勾选"
+  ]
 }

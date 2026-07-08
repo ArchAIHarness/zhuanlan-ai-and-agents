@@ -10,15 +10,17 @@
   "cover": "cover.png",
   "cover_hash": "7e8ab632b551439ab3934fbb382d9ed0",
   "status": "草稿已就绪",
-  "saved_at": "2026-07-07",
-  "last_checked_at": "2026-07-08T22:58:12",
-  "last_status": "fixed",
+  "saved_at": "2026-07-09",
+  "last_checked_at": "2026-07-09T07:35",
+  "last_status": "issue",
   "last_fixes": [
-    "[2026-07-08 22:58 二次复核+修复] 专栏「看懂AI和智能体」checkbox 实际为 false(首次 fixed 时判断有误),用 native setter + dispatchEvent('change') 勾上后保存草稿成功 22:58:12",
-    "[2026-07-08 22:36 首次修复] 替换 5 张占位图为真实 CDN URL(01-triage-conversation / 02-three-tier-pricing / 03-routing-strategy / 04-bill-comparison / 05-mindset-shift)",
+    "[2026-07-09 08:18 三次复核] 5 张图(2d6db154/e60aa638/9f7136a8/c52bc1c3/01f9400a)i-blog CDN/封面 7e8ab632 已设/摘要 153 字/标签 3 个(人工智能·AI编程·后端)/原创/全部可见/多平台=否 全部确认就绪",
+    "[2026-07-09 08:18 已知 issue(未解决)] 专栏「看懂AI和智能体」checkbox 在 CSDN 编辑器 UI 上勾选后(skill 三步 + CDP click label + hiddenValue 直接 set + dispatchEvent('change') 均试过),saveArticle 返回 200 但刷新后依然未勾上(hiddenValue 始终 ''). 怀疑是 CSDN 后端 categories 字段持久化 bug 或 categories 字段需要 categoryId 而非中文字符串。建议主编发布前手动勾选一次",
+    "[2026-07-08 22:58 二次复核+修复] 专栏 checkbox 实际为 false(首次 fixed 时判断有误),用 native setter + dispatchEvent('change') 勾上后保存草稿成功 22:58:12",
+    "[2026-07-08 22:36 首次修复] 替换 5 张占位图为真实 CDN URL",
     "[2026-07-08 22:36 首次修复] 删除错标签「深度学习」",
     "[2026-07-08 22:36 首次修复] 添加标签「AI编程」「后端」",
-    "封面/摘要 153 字/文章类型(原创)/可见范围(公开)/多平台发布(否)全部正确"
+    "封面/摘要/文章类型/可见范围/多平台发布 全部正确"
   ],
   "image_cdn_hashes": [
     "2d6db154b8a74348a984407a1a6e6163",
