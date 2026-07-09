@@ -775,7 +775,6 @@ Google 开源的 PipelineDP、IBM 的 diffprivlib 都是工业级实现。
 
 **多租户数据隔离的真相不是"加了 tenant_id 就安全"——是"三把锁选对 + 五道防线焊死 + 客户问题答对"。三件事缺一不可。**
 
----
 
 ## 写在最后
 
@@ -805,7 +804,6 @@ tenant_id 必须传——不靠业务层自觉，靠中间件强制注入。
 
 **从今天起，每写一行 SQL 之前，先问一句——这一行跨租户吗？这一行 tenant_id 加了吗？这一行用 raw SQL 了吗？这一行会被 code review 抓到吗？**
 
----
 
 ### 关于 ArchAIHarness
 

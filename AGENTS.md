@@ -43,12 +43,14 @@
 
 ## 二、当前进度
 
-> **发布阵地**：
-> - 知乎专栏：[《看懂 AI 和智能体》](https://www.zhihu.com/column/c_2050152823258718647)
-> - CSDN 专栏：[看懂AI与智能体](https://blog.csdn.net/wzx_cx/category_13180206.html)
-> - 掘金专栏：[看懂AI与智能体](https://juejin.cn/column/7652541009059889162)
+> **发布阵地(2026-07-09 更新)**：
+> - ✅ **CSDN 专栏**：[看懂AI与智能体](https://blog.csdn.net/wzx_cx/category_13180206.html) — **当前唯一发布阵地**
+> - ~~知乎专栏：[《看懂 AI 和智能体》](https://www.zhihu.com/column/c_2050152823258718647)~~ — 暂缓
+> - ~~掘金专栏：[看懂AI与智能体](https://juejin.cn/column/7652541009059889162)~~ — 暂缓
+>
+> **老大决定(2026-07-09)**：以后暂定只发 CSDN。知乎/掘金暂停维护，已有草稿保留但不再更新。
 
-| # | 标题 | 状态 | 解决的问题 | 知乎 | CSDN | 掘金 |
+| # | 标题 | 状态 | 解决的问题 | 知乎(暂停) | CSDN(唯一) | 掘金(暂停) |
 |---|---|---|---|---|---|---|
 | 1 | AI 模型到底是怎么"思考"的？ | 全平台已发布 | AI 凭什么生成回答 | [链接](https://zhuanlan.zhihu.com/p/2049935040998646864) | [链接](https://blog.csdn.net/wzx_cx/article/details/162103878) | [链接](https://juejin.cn/post/7652748282574290994) |
 | 2 | Agent 到底是什么？ | 全平台已发布 | AI 凭什么执行任务 | [链接](https://zhuanlan.zhihu.com/p/2050162148559549252) | [链接](https://blog.csdn.net/wzx_cx/article/details/162104144) | [链接](https://juejin.cn/post/7652541009060216842) |
