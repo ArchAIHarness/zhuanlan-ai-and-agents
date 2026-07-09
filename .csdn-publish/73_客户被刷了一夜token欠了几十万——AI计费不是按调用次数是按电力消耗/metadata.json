@@ -1,28 +1,22 @@
 {
-  "articleId": "162677195",
-  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162677195",
-  "title": "客户被刷了一夜token欠了几十万——AI计费不是按调用次数是按电力消耗",
-  "slug": "73_客户被刷了一夜token欠了几十万——AI计费不是按调用次数是按电力消耗",
-  "imageCount": 4,
-  "tags": ["人工智能", "AI编程", "后端"],
+  "articleId": "",
+  "draft_url": "",
+  "imageCount": 5,
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "后端"
+  ],
   "column": "看懂AI和智能体",
-  "summary": "客户被刷了一夜token欠了几十万——AI计费不是按调用次数是按电力消耗。把模糊的\"AI账单爆炸\"剥成三类异常（恶意刷量/业务突增/配置错误）+ 四个真需求。AI用得越多亏得越多。",
   "cover": "cover.png",
-  "cover_hash": "69406b44046a4bf9ba9a8df85c83d22c",
-  "status": "草稿已就绪",
+  "status": "草稿新建中",
   "saved_at": "2026-07-09",
-  "last_checked_at": "2026-07-09T08:18",
-  "last_status": "issue",
+  "last_checked_at": "2026-07-09T09:30",
+  "last_status": "channel_pkg_created",
   "last_fixes": [
-    "[2026-07-09 08:18 三次复核] 4 张图(096480b0/a6d5e318/70a0e1fe/8aadda66)i-blog CDN/封面 69406b44 已设/摘要 147 字/标签 3 个/原创/全部可见/多平台=否 全部就绪",
-    "[2026-07-09 已知 issue] 专栏持久化失败(同上)",
-    "[2026-07-08 23:26 验证+修复] imageCount 5→4(03 占位符旧草稿丢失,assets 03 仍在但本次未补回)"
+    "[2026-07-09 09:30 渠道包补齐] 由 content-publisher 从原稿 .md 重建,基于主编授权\"原稿怎么补不 care,csdn 给我维护好\""
   ],
-  "image_cdn_hashes": [
-    "096480b029df4f43a2132ad65e02392a",
-    "a6d5e318e11f4a05b4eef50cb8877459",
-    "70a0e1fee2ca464ba75bab405c2927b9",
-    "8aadda6682b04088bd90997248d31d0a"
-  ],
-  "issue": "03-三类异常分布.png 在 .text.md L94 引用,但旧草稿中占位符已丢失,本次修复未补回。建议下次修订时人工补充 03 图(assets/73_ai_billing_electricity/03-三类异常分布.png)"
+  "title": "客户被刷了一夜 token 欠了几十万——AI 计费不是按调用次数，是按电力消耗",
+  "slug": "73_客户被刷了一夜token欠了几十万——AI计费不是按调用次数是按电力消耗",
+  "assets_dir": "assets/73_ai_billing_electricity"
 }

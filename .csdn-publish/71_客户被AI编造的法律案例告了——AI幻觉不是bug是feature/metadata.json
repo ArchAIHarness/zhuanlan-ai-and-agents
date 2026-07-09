@@ -1,28 +1,22 @@
 {
-  "articleId": "162676544",
-  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162676544",
-  "title": "客户被AI编造的法律案例告了——AI幻觉不是bug是feature",
-  "slug": "71_客户被AI编造的法律案例告了——AI幻觉不是bug是feature",
+  "articleId": "",
+  "draft_url": "",
   "imageCount": 5,
-  "tags": ["人工智能", "AI编程", "后端"],
-  "column": "看懂AI和智能体",
-  "summary": "客户被AI编造的法律案例告了——AI幻觉不是bug是feature。把模糊的\"AI一本正经胡说八道\"剥成三类幻觉（事实性/逻辑性/虚构引用）+ 三个真需求。AI不知道它不知道。",
-  "cover": "cover.png",
-  "cover_hash": "5c01a01ec0cb4fe4a31a1113bef4d26d",
-  "status": "草稿已就绪",
-  "saved_at": "2026-07-09",
-  "last_checked_at": "2026-07-09T08:18",
-  "last_status": "issue",
-  "last_fixes": [
-    "[2026-07-09 08:18 三次复核] 5 张图(34256911/274c98ad/1295a02a/825bdb97/43c61da5)i-blog CDN/封面 5c01a01e 已设/摘要 148 字/标签 3 个/原创/全部可见/多平台=否 全部就绪",
-    "[2026-07-09 已知 issue] 专栏持久化失败(同上)",
-    "[2026-07-08 23:18 验证+修复] 5 张占位符图+专栏+标签"
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "后端"
   ],
-  "image_cdn_hashes": [
-    "3425691175eb4d419a69264bc8d40fa6",
-    "274c98adbe0e4e8cbdbf6d6a08ebf054",
-    "1295a02a1a23414398bc7bb1d9934237",
-    "825bdb97d9b04257830c6e0d6e0fccd9",
-    "43c61da56fbf40418371fd2a417b6103"
-  ]
+  "column": "看懂AI和智能体",
+  "cover": "cover.png",
+  "status": "草稿新建中",
+  "saved_at": "2026-07-09",
+  "last_checked_at": "2026-07-09T09:30",
+  "last_status": "channel_pkg_created",
+  "last_fixes": [
+    "[2026-07-09 09:30 渠道包补齐] 由 content-publisher 从原稿 .md 重建,基于主编授权\"原稿怎么补不 care,csdn 给我维护好\""
+  ],
+  "title": "客户被 AI 编造的法律案例告了——AI 幻觉不是 bug 是 feature",
+  "slug": "71_客户被AI编造的法律案例告了——AI幻觉不是bug是feature",
+  "assets_dir": "assets/71_ai_hallucination_not_bug"
 }

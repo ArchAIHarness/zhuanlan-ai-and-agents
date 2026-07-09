@@ -1,26 +1,22 @@
 {
-  "articleId": "162676587",
-  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162676587",
-  "title": "AI幻觉不是用更大模型解决——RAG增强+引用溯源+置信度标注让AI开口必带出处",
-  "slug": "72_AI幻觉不是用更大模型解决——RAG增强加引用溯源加置信度标注让AI开口必带出处",
-  "imageCount": 3,
-  "tags": ["人工智能", "AI编程", "后端"],
-  "column": "看懂AI和智能体",
-  "summary": "四道闸（RAG检索增强/引用溯源标注/置信度评分/兜底说\"我不知道\"）+ 五类工程实践（向量库/Embedding/Rerank/监控/工程化清单）。AI幻觉不是用更大模型解决，是用工程纪律兜住。",
-  "cover": "cover.png",
-  "cover_hash": "ab7158dbd2f841f29f9a5be338b556af",
-  "status": "草稿已就绪",
-  "saved_at": "2026-07-09",
-  "last_checked_at": "2026-07-09T08:18",
-  "last_status": "issue",
-  "last_fixes": [
-    "[2026-07-09 08:18 三次复核] 3 张图(6c73b26d/6cbb49ad/9a7aba69)i-blog CDN/封面 ab7158db 已设/摘要 139 字/标签 3 个/原创/全部可见/多平台=否 全部就绪",
-    "[2026-07-09 已知 issue] 专栏持久化失败(同上)",
-    "[2026-07-08 23:22 验证+修复] imageCount 5→3(原文实际引用 3 张),3 张图+标签+专栏"
+  "articleId": "",
+  "draft_url": "",
+  "imageCount": 5,
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "后端"
   ],
-  "image_cdn_hashes": [
-    "6c73b26ddb4742bbbd422e5dc6bd2742",
-    "6cbb49ad43c24d2ea8f52203c6ebc7dd",
-    "9a7aba692cff4d53a9d121a9ea649f50"
-  ]
+  "column": "看懂AI和智能体",
+  "cover": "cover.png",
+  "status": "草稿新建中",
+  "saved_at": "2026-07-09",
+  "last_checked_at": "2026-07-09T09:30",
+  "last_status": "channel_pkg_created",
+  "last_fixes": [
+    "[2026-07-09 09:30 渠道包补齐] 由 content-publisher 从原稿 .md 重建,基于主编授权\"原稿怎么补不 care,csdn 给我维护好\""
+  ],
+  "title": "AI 幻觉不是用更大模型解决——RAG 增强加引用溯源加置信度标注让 AI 开口必带出处",
+  "slug": "72_AI幻觉不是用更大模型解决——RAG增强加引用溯源加置信度标注让AI开口必带出处",
+  "assets_dir": "assets/72_rag_citation_confidence"
 }

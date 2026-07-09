@@ -1,32 +1,22 @@
 {
-  "articleId": "162675533",
-  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162675533",
-  "title": "客户问\"为什么简单问题也要用GPT-4\"——多模型路由不是技术问题，是医生分诊",
-  "slug": "67_客户问为什么简单问题也要用GPT-4——多模型路由不是技术问题是医生分诊",
+  "articleId": "",
+  "draft_url": "",
   "imageCount": 5,
-  "tags": ["人工智能", "AI编程", "后端"],
-  "column": "看懂AI和智能体",
-  "summary": "客户问\"为什么简单问题也要用GPT-4\"——多模型路由不是技术问题，是医生分诊。把模糊的\"AI 太贵\"剥成三个真需求（单次成本低/效果不降/延迟可控）。70% 的问题用社区诊所（本地 7B）解得更好，30% 才需要三甲医院（GPT-4）。下篇卷袖子干活讲小模型本地化+提示词缓存+批处理把推理成本再砍一刀。",
-  "cover": "cover.png",
-  "cover_hash": "7e8ab632b551439ab3934fbb382d9ed0",
-  "status": "草稿已就绪",
-  "saved_at": "2026-07-09",
-  "last_checked_at": "2026-07-09T07:35",
-  "last_status": "issue",
-  "last_fixes": [
-    "[2026-07-09 08:18 三次复核] 5 张图(2d6db154/e60aa638/9f7136a8/c52bc1c3/01f9400a)i-blog CDN/封面 7e8ab632 已设/摘要 153 字/标签 3 个(人工智能·AI编程·后端)/原创/全部可见/多平台=否 全部确认就绪",
-    "[2026-07-09 08:18 已知 issue(未解决)] 专栏「看懂AI和智能体」checkbox 在 CSDN 编辑器 UI 上勾选后(skill 三步 + CDP click label + hiddenValue 直接 set + dispatchEvent('change') 均试过),saveArticle 返回 200 但刷新后依然未勾上(hiddenValue 始终 ''). 怀疑是 CSDN 后端 categories 字段持久化 bug 或 categories 字段需要 categoryId 而非中文字符串。建议主编发布前手动勾选一次",
-    "[2026-07-08 22:58 二次复核+修复] 专栏 checkbox 实际为 false(首次 fixed 时判断有误),用 native setter + dispatchEvent('change') 勾上后保存草稿成功 22:58:12",
-    "[2026-07-08 22:36 首次修复] 替换 5 张占位图为真实 CDN URL",
-    "[2026-07-08 22:36 首次修复] 删除错标签「深度学习」",
-    "[2026-07-08 22:36 首次修复] 添加标签「AI编程」「后端」",
-    "封面/摘要/文章类型/可见范围/多平台发布 全部正确"
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "后端"
   ],
-  "image_cdn_hashes": [
-    "2d6db154b8a74348a984407a1a6e6163",
-    "e60aa63875404a16b5a35fc1ccb7a98e",
-    "9f7136a8e7334223aa0844b13fefae46",
-    "c52bc1c368f04686a113fdf503e45f78",
-    "01f9400a9394437f9de1420f6779b065"
-  ]
+  "column": "看懂AI和智能体",
+  "cover": "cover.png",
+  "status": "草稿新建中",
+  "saved_at": "2026-07-09",
+  "last_checked_at": "2026-07-09T09:30",
+  "last_status": "channel_pkg_created",
+  "last_fixes": [
+    "[2026-07-09 09:30 渠道包补齐] 由 content-publisher 从原稿 .md 重建,基于主编授权\"原稿怎么补不 care,csdn 给我维护好\""
+  ],
+  "title": "客户问\"为什么简单问题也要用 GPT-4\"——多模型路由不是技术问题,是医生分诊",
+  "slug": "67_客户问为什么简单问题也要用GPT-4——多模型路由不是技术问题是医生分诊",
+  "assets_dir": "assets/67_multi_model_routing_doctor_triage"
 }
