@@ -2,4 +2,6 @@
 .publish/
 *.bak.png
 .var/
-.var/
+assets/
+audit/*.png
+.juejin-publish/
