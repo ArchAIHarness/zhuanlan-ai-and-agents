@@ -1,0 +1,123 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "多智能体不是堆 AI——跟着一个\"AI 编辑部\"看协作怎么跑通",
+  "summary": "多个 AI 凑在一起不叫团队。让一群 AI 真正协作跑通的，不是 AI 的数量，是人事先定好的一套秩序——分工、边界、交接、兜底、审计。这篇用一个虚构的\"AI 编辑部\"从头跑到尾，让你看清协作的本质是治理，立规矩的是人。",
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "语言模型"
+  ],
+  "tags_intended": [
+    "多智能体",
+    "Agent",
+    "工作流",
+    "AI Agent",
+    "多Agent协作"
+  ],
+  "tags_note": "本账号博客等级<3，CSDN 禁止创建自定义标签，最终改用平台已有推荐标签（人工智能、AI编程、语言模型）",
+  "category": "人工智能",
+  "article_type": "original",
+  "editor_type": "markdown",
+  "article_id": 162221911,
+  "draft_status": "saved",
+  "csdn_status_code": 2,
+  "pub_status": "draft",
+  "read_type": "public",
+  "csdn_category_column": "看懂AI和智能体",
+  "cover_cdn_url": "uploaded-confirmed",
+  "content_image_cdn_urls": [
+    "https://i-blog.csdnimg.cn/direct/4c40187c254147c2ae3eae941e8702d3.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/2b85076ebe864f60b5212874e8765291.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/a121ddedebb84c2fb51cf5242a0291f6.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/72d9b44969574ebda77bb366eece3e77.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/b46e792a904b475dbec985238766d051.png#pic_center"
+  ],
+  "source_content_package": "",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "channel_actions": [
+    "prepare-csdn-markdown",
+    "save-draft-with-browser-automation",
+    "publish-after-human-confirmation"
+  ],
+  "validation_points": [
+    "markdown-preview",
+    "image-rendered",
+    "external-links-reviewed",
+    "category-and-tags-selected",
+    "originality-declaration",
+    "manual-publish-confirmation"
+  ],
+  "manual_steps": [
+    "open-csdn-md-editor",
+    "inject-placeholder-markdown",
+    "fill-title",
+    "upload-images-via-placeholder-replacement",
+    "fill-cover-summary-category-tags",
+    "confirm-originality-declaration",
+    "save-draft",
+    "stop-before-publish"
+  ],
+  "content_images": [
+    {
+      "index": 0,
+      "alt": "一个 AI 全包所有角色 vs 编辑部把活拆给不同角色的对比",
+      "src": "assets/10_多智能体不是堆AI/01-one-ai-vs-team.png",
+      "placeholder": "@@@IMG_0@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/4c40187c254147c2ae3eae941e8702d3.png#pic_center"
+    },
+    {
+      "index": 1,
+      "alt": "AI 编辑部角色全景：主编是唯一出口，调研、撰稿、校对、配图各管一摊",
+      "src": "assets/10_多智能体不是堆AI/02-editorial-team-roles.png",
+      "placeholder": "@@@IMG_1@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/2b85076ebe864f60b5212874e8765291.png#pic_center"
+    },
+    {
+      "index": 2,
+      "alt": "主编派活靠一份带边界的选题简报，调研员交回带出处的素材清单",
+      "src": "assets/10_多智能体不是堆AI/03-handoff-brief.png",
+      "placeholder": "@@@IMG_2@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/a121ddedebb84c2fb51cf5242a0291f6.png#pic_center"
+    },
+    {
+      "index": 3,
+      "alt": "撰稿出初稿、校对只挑错打回、撰稿重写再过审的评审兜底回路",
+      "src": "assets/10_多智能体不是堆AI/04-review-loop.png",
+      "placeholder": "@@@IMG_3@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/72d9b44969574ebda77bb366eece3e77.png#pic_center"
+    },
+    {
+      "index": 4,
+      "alt": "流水线模式与评审模式两种 AI 团队队形对比",
+      "src": "assets/10_多智能体不是堆AI/05-pipeline-vs-review.png",
+      "placeholder": "@@@IMG_4@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/b46e792a904b475dbec985238766d051.png#pic_center"
+    }
+  ],
+  "image_count": 5,
+  "cover_image": "assets/10_多智能体不是堆AI/cover.png",
+  "column": "看懂AI与智能体",
+  "published_url": "",
+  "session": {
+    "id": "csdn-10-draft",
+    "status": "draft-ready",
+    "current_step": "draft-saved",
+    "recoverable": true
+  },
+  "generated_at": "2026-06-23T00:27:46.000Z",
+  "sensitive_findings": [],
+  "checklist": [
+    "标题已填，引号已校正为正确中文引号 \"AI 编辑部\"",
+    "摘要已填（145/256）",
+    "标签已选：人工智能、AI编程、语言模型（账号等级<3，自定义标签不可用）",
+    "分类专栏已勾选：看懂AI和智能体",
+    "封面已上传确认",
+    "文章类型：原创",
+    "可见范围：全部可见",
+    "5 张配图占位符替换法逐张上传并验证（imgCount=5，全部 csdnimg CDN）",
+    "已点保存为草稿（articleId=162221911），停在发布前"
+  ]
+}

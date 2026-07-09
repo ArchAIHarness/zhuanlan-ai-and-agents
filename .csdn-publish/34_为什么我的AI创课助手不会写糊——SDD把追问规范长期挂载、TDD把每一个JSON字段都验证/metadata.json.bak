@@ -1,0 +1,50 @@
+{
+  "title": "为什么我的 AI 创课助手不会写糊——SDD 把追问规范长期挂载、TDD 把每一个 JSON 字段都验证",
+  "platform": "csdn",
+  "topic": "FDE 实战案例 · 工程落地篇",
+  "column": "看懂AI和智能体",
+  "column_id": "",
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "SDD"
+  ],
+  "summary": "33 篇把含糊需求剥成 9 字段 JSON,34 篇把 AI 创课助手的智能厨房搭出来:DDD 三限界切分工种、SDD 双端让 ADD 菜谱表长期挂载、TDD 三层闸拦截写糊 JSON。AI 不懂 ADD 但跑得更稳,一次创建多次复用,价值复利。",
+  "cover_image": "assets/34_为什么我的AI创课助手不会写糊——SDD把追问规范长期挂载、TDD把每一个JSON字段都验证/cover.png",
+  "source_article": "34_为什么我的AI创课助手不会写糊——SDD把追问规范长期挂载、TDD把每一个JSON字段都验证.md",
+  "slug": "34_为什么我的AI创课助手不会写糊——SDD把追问规范长期挂载、TDD把每一个JSON字段都验证",
+  "publish_status": "草稿",
+  "publish_date": null,
+  "visibility": "所有人可见",
+  "article_type": "原创",
+  "draft_id": null,
+  "published_url": null,
+  "images": [
+    {
+      "index": 0,
+      "alt": "业务模型到工程模型的转换路径——33 JSON 通过 DDD 拆解为三限界上下文",
+      "src": "assets/34_为什么我的AI创课助手不会写糊——SDD把追问规范长期挂载、TDD把每一个JSON字段都验证/01-business-to-engineering-model.png"
+    },
+    {
+      "index": 1,
+      "alt": "DDD 三限界上下文 + 上下文映射关系——course/question/media 三工种分区",
+      "src": "assets/34_为什么我的AI创课助手不会写糊——SDD把追问规范长期挂载、TDD把每一个JSON字段都验证/02-ddd-three-bounded-contexts.png"
+    },
+    {
+      "index": 2,
+      "alt": "SDD 双端架构——墙上菜谱表(Spec 端)+ 服务员点菜单(Story 端)",
+      "src": "assets/34_为什么我的AI创课助手不会写糊——SDD把追问规范长期挂载、TDD把每一个JSON字段都验证/03-sdd-two-ends.png"
+    },
+    {
+      "index": 3,
+      "alt": "TDD 三层测试护栏——追问覆盖度闸/JSON 合法性闸/修改一致性闸",
+      "src": "assets/34_为什么我的AI创课助手不会写糊——SDD把追问规范长期挂载、TDD把每一个JSON字段都验证/04-tdd-three-gates.png"
+    },
+    {
+      "index": 4,
+      "alt": "价值复利——一次创建多次复用,中央资产沉淀池装满 8 张可复用资产卡片",
+      "src": "assets/34_为什么我的AI创课助手不会写糊——SDD把追问规范长期挂载、TDD把每一个JSON字段都验证/05-value-compound.png"
+    }
+  ],
+  "notes": "FDE 系列 · 行道阶段(33+)第 1 篇 · 下篇工程落地篇;33/34 一组上下篇闭环(上篇业务边界+下篇工程落地)。注:34 是双数实践篇,按 §5.2 节奏新规则正文末尾无下一篇预告,以金句收束。"
+}

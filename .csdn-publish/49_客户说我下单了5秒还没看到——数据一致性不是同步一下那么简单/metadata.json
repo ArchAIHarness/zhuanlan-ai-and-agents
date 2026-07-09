@@ -1,0 +1,22 @@
+{
+  "articleId": "",
+  "draft_url": "",
+  "imageCount": 5,
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "后端"
+  ],
+  "column": "看懂AI和智能体",
+  "cover": "cover.png",
+  "status": "草稿新建中",
+  "saved_at": "2026-07-09",
+  "last_checked_at": "2026-07-09T09:30",
+  "last_status": "channel_pkg_created",
+  "last_fixes": [
+    "[2026-07-09 09:30 渠道包补齐] 由 content-publisher 从原稿 .md 重建,基于主编授权\"原稿怎么补不 care,csdn 给我维护好\""
+  ],
+  "title": "客户说\"我下单了 5 秒还没看到\"——数据一致性不是\"同步一下\"那么简单",
+  "slug": "49_客户说我下单了5秒还没看到——数据一致性不是同步一下那么简单",
+  "assets_dir": "assets/49_客户说我下单了5秒还没看到——数据一致性不是同步一下那么简单"
+}

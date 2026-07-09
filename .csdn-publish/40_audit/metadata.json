@@ -1,0 +1,19 @@
+{
+  "platform": "csdn",
+  "article_id": "162562458",
+  "title": "每跳必留痕、可拉通、可告警——SSO 审计日志的四道工程纪律",
+  "summary": "39篇立了审计心智（\"SSO 的另一半工程是给每次跳转装个黑匣子\"），这一篇卷袖子干活。把四件真需求翻成四道工程纪律——每跳必留痕（trace_id 贯穿客户端→网关→验签→合并→签发→落地→查询全链路）、记全分层（六大类事件一次定死）、冷热分层存（ES热存30天/对象存储冷存1-3年+数字签名）、可拉通可告警（一次跳转所有事件一键复盘+八条实时告警）。防住+查清，才是 SSO 能跑三年不出事的完整答案。",
+  "tag": "人工智能",
+  "column": "看懂AI与智能体",
+  "cover": "assets/40_每跳必留痕可拉通可告警——SSO审计日志的四道工程纪律/cover.png",
+  "body_images": [
+    "assets/40_每跳必留痕可拉通可告警——SSO审计日志的四道工程纪律/01-trace-id-throughout.png",
+    "assets/40_每跳必留痕可拉通可告警——SSO审计日志的四道工程纪律/02-six-event-classes.png",
+    "assets/40_每跳必留痕可拉通可告警——SSO审计日志的四道工程纪律/03-hot-cold-tiering.png",
+    "assets/40_每跳必留痕可拉通可告警——SSO审计日志的四道工程纪律/04-replay-and-alert.png",
+    "assets/40_每跳必留痕可拉通可告警——SSO审计日志的四道工程纪律/05-three-incident-replays.png"
+  ],
+  "draft_url": "https://editor.csdn.net/md?articleId=162562458",
+  "status": "draft",
+  "saved_at": "2026-07-04T00:33:00+08:00"
+}

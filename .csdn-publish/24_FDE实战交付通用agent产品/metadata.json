@@ -1,0 +1,40 @@
+{
+  "title": "FDE 怎么交付一个通用 agent 产品：一个客户教会我的三件事",
+  "summary": "本文介绍：FDE 怎么交付一个通用 agent 产品：一个客户教会我的三件事。FDE 怎么交付一个通用 agent 产品：一个客户教会我的三件事。",
+  "tags": [
+    "人工智能",
+    "AI编程"
+  ],
+  "category": "人工智能",
+  "column": "看懂AI和智能体",
+  "cover": "assets/24_FDE实战交付通用agent产品/cover.png",
+  "source_article": "24_FDE实战交付通用agent产品.md",
+  "draft_status": "pending",
+  "images": [
+    {
+      "index": 0,
+      "alt": "4 Customer Journey.Bak",
+      "src": "assets/24_FDE实战交付通用agent产品/01-4-customer-journey.bak.png"
+    },
+    {
+      "index": 1,
+      "alt": "一个客户，四个部门，三次沉淀",
+      "src": "assets/24_FDE实战交付通用agent产品/01-4-customer-journey.png"
+    },
+    {
+      "index": 2,
+      "alt": "Three Layers Base",
+      "src": "assets/24_FDE实战交付通用agent产品/02-three-layers-base.png"
+    },
+    {
+      "index": 3,
+      "alt": "FDE 真正的交付物：不是代码",
+      "src": "assets/24_FDE实战交付通用agent产品/03-fde-real-deliverable.png"
+    },
+    {
+      "index": 4,
+      "alt": "Cover.Bak",
+      "src": "assets/24_FDE实战交付通用agent产品/cover.bak.png"
+    }
+  ]
+}

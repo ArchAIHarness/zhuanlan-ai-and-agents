@@ -1,0 +1,84 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "我在飞书里养了个“分身”——私聊喊它办事，群里 @ 它干活，还能替我传话",
+  "summary": "你私聊它它办事、群里 @ 它它干活、它还会替你跑腿传话——我把一个 AI 接进飞书，养成一个会做事会做人的“分身”。这篇一层层拆开：连接很薄，难在待人接物的规矩，以及那三道焊死“说了就一定发出去”的闸。",
+  "tags": [
+    "人工智能",
+    "语言模型",
+    "AI编程"
+  ],
+  "tags_note": "本账号博客等级<3，CSDN 禁止创建自定义标签，沿用平台已有推荐标签（人工智能、语言模型、AI编程）。",
+  "category": "人工智能",
+  "article_type": "original",
+  "editor_type": "markdown",
+  "source_article": "14_我在飞书里养了个分身.md",
+  "body_file": "article.final.md",
+  "draft_status": "pending",
+  "pub_status": "draft",
+  "read_type": "public",
+  "csdn_category_column": "看懂AI和智能体",
+  "cover_image": "assets/14_我在飞书里养了个分身/cover.png",
+  "content_images": [
+    {
+      "index": 0,
+      "alt": "一个对话框里的 AI 被搬进飞书，私聊、A群、B群各自一条独立的记忆线，互不串味",
+      "src": "assets/14_我在飞书里养了个分身/01-clone-into-feishu.png",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/3030778e2eb049c6bb058099d4390e67.png"
+    },
+    {
+      "index": 1,
+      "alt": "私聊私信回、群里@着引用回、转发传话带上“谁找你”，三套待人接物的规矩对照",
+      "src": "assets/14_我在飞书里养了个分身/02-three-manners.png",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/71fbca455ca84d17999a7942c714fb4a.png"
+    },
+    {
+      "index": 2,
+      "alt": "三道闸：事前用规矩挑明、事中盯着它做没做、事后没做就自动替它补发出去",
+      "src": "assets/14_我在飞书里养了个分身/03-three-gates.png",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/53c1b215049043e4aed62bdb83e1cfb9.png"
+    }
+  ],
+  "image_count": 3,
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "validation_points": [
+    "markdown-preview",
+    "image-rendered",
+    "external-links-reviewed",
+    "category-and-tags-selected",
+    "originality-declaration",
+    "manual-publish-confirmation"
+  ],
+  "column": "看懂AI与智能体",
+  "article_id": "",
+  "published_url": "",
+  "session": {
+    "id": "csdn-14",
+    "status": "draft_saved",
+    "current_step": "package-prepared",
+    "recoverable": true,
+    "platform": "csdn",
+    "saved_at": "2026-06-24T16:10:34.565Z",
+    "publish_gate": "manual-confirmation-required",
+    "cover_done": true
+  },
+  "sensitive_findings": [],
+  "csdn_article_id": "162282722",
+  "csdn_draft_url": "https://editor.csdn.net/md?articleId=162282722",
+  "settings": {
+    "tags": [
+      "人工智能",
+      "AI编程",
+      "语言模型"
+    ],
+    "column": "看懂AI和智能体",
+    "article_type": "原创",
+    "visibility": "全部可见",
+    "multi_platform": false,
+    "summary_len": 101,
+    "images": 3,
+    "cover_uploaded": true
+  }
+}

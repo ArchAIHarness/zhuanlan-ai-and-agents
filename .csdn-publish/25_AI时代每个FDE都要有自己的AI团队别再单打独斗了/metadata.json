@@ -1,0 +1,22 @@
+{
+  "title": "AI 时代每个 FDE 都要有自己的 AI 团队——别再单打独斗了",
+  "summary": "两种 FDE 拉开的不是技能差距，是生产力上限的差距。AI 时代，团队不是手动创建的——是沟通出来的。这一篇讲 FDE 第一年应该有的十件「养团队」内功。",
+  "tags": ["人工智能", "AI编程", "语言模型"],
+  "category": "人工智能",
+  "column": "看懂AI和智能体",
+  "cover": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/cover.png",
+  "source_article": "25_AI时代每个FDE都要有自己的AI团队别再单打独斗了.md",
+  "draft_status": "saved",
+  "csdn_article_id": "162440035",
+  "draft_url": "https://editor.csdn.net/md?not_checkout=1&articleId=162440035",
+  "cover_cdn_url": "https://i-blog.csdnimg.cn/direct/1cd7c7cfa63d44f5951286e38754f40b.png",
+  "published_at_cdn": "2026-06-30",
+  "images": [
+    {"index": 0, "alt": "一个人累死 vs 几个专员分摊，对比之下高低立判", "src": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/01-solo-vs-team.png"},
+    {"index": 1, "alt": "人坐桌前跟 AI 谈需求，谈着谈着桌边长出几个专员，团队是自己长出来的", "src": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/02-team-emerges-from-talk.png"},
+    {"index": 2, "alt": "十件内功全景图，三色块分布", "src": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/03-ten-elements-overview.png"},
+    {"index": 3, "alt": "失败兜底三级台阶：重试→换方案→问人", "src": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/04-failure-fallback.png"},
+    {"index": 4, "alt": "五步沉淀 + loop 机制：撞墙→查因→沉淀成 SKILL→下次免试错→循环", "src": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/05-five-step-loop.png"},
+    {"index": 5, "alt": "基座 + 插件化分层结构：基座不可变 + 插件可插拔", "src": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/02-three-layers-base.png"}
+  ]
+}

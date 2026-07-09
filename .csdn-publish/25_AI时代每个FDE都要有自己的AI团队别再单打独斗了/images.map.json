@@ -1,0 +1,47 @@
+{
+  "count": 6,
+  "images": [
+    {
+      "index": 0,
+      "alt": "一个人累死 vs 几个专员分摊，对比之下高低立判",
+      "src": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/01-solo-vs-team.png",
+      "placeholder": "@@@IMG_0@@@",
+      "raw": "![一个人累死 vs 几个专员分摊，对比之下高低立判](assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/01-solo-vs-team.png)"
+    },
+    {
+      "index": 1,
+      "alt": "人坐桌前跟 AI 谈需求，谈着谈着桌边长出几个专员，团队是自己长出来的",
+      "src": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/02-team-emerges-from-talk.png",
+      "placeholder": "@@@IMG_1@@@",
+      "raw": "![人坐桌前跟 AI 谈需求，谈着谈着桌边长出几个专员，团队是自己长出来的](assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/02-team-emerges-from-talk.png)"
+    },
+    {
+      "index": 2,
+      "alt": "FDE 第一年要养好的十件内功全景：治理层 4 件、知识层 3 件、复用层 3 件",
+      "src": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/03-ten-elements-overview.png",
+      "placeholder": "@@@IMG_2@@@",
+      "raw": "![FDE 第一年要养好的十件内功全景：治理层 4 件、知识层 3 件、复用层 3 件](assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/03-ten-elements-overview.png)"
+    },
+    {
+      "index": 3,
+      "alt": "失败兜底三级台阶：重试 → 换方案 → 问人，越往上越贵，但越能兜住",
+      "src": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/04-failure-fallback.png",
+      "placeholder": "@@@IMG_3@@@",
+      "raw": "![失败兜底三级台阶：重试 → 换方案 → 问人，越往上越贵，但越能兜住](assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/04-failure-fallback.png)"
+    },
+    {
+      "index": 4,
+      "alt": "五步沉淀 + loop 机制：撞墙 → 查因 → 沉淀成 SKILL → 下次免试错 → 循环",
+      "src": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/05-five-step-loop.png",
+      "placeholder": "@@@IMG_4@@@",
+      "raw": "![五步沉淀 + loop 机制：撞墙 → 查因 → 沉淀成 SKILL → 下次免试错 → 循环](assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/05-five-step-loop.png)"
+    },
+    {
+      "index": 5,
+      "alt": "基座 + 插件化分层结构：基座不可变 + 插件可插拔",
+      "src": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/02-three-layers-base.png",
+      "placeholder": "@@@IMG_5@@@",
+      "raw": "![基座 + 插件化分层结构：基座不可变 + 插件可插拔](assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/02-three-layers-base.png)"
+    }
+  ]
+}

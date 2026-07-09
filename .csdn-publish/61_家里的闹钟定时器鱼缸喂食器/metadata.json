@@ -1,0 +1,14 @@
+{
+  "articleId": "162661787",
+  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162661787",
+  "title": "家里的闹钟、定时器、鱼缸喂食器——定时任务不是 setInterval，是你不出门东西自己会动",
+  "slug": "61_家里的闹钟定时器鱼缸喂食器",
+  "imageCount": 5,
+  "tags": ["人工智能", "AI编程", "后端"],
+  "column": "看懂AI和智能体",
+  "summary": "每晚零点跑对账任务失败影响第二天财务报表——定时任务的典型事故。",
+  "cover": "cover.png",
+  "cover_hash": "75cd87892c384b99b3508742f9e6f245",
+  "status": "草稿已就绪",
+  "saved_at": "2026-07-07"
+}

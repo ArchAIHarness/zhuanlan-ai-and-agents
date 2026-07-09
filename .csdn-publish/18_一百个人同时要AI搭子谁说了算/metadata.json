@@ -1,0 +1,56 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "一百个人同时要 AI 搭子，谁说了算？——我写了个调度大脑，但真正的设计是三条死规矩",
+  "summary": "给一群用户调度AI实例，真正的设计不是Kubernetes编排技术，是三条谁也不能越界的规矩：一人一实例、创建可写重启不碰、TTL到期不信任常驻。规矩先于代码，设计大于技术。",
+  "tags": ["人工智能", "AI编程", "Kubernetes", "调度", "多租户"],
+  "tags_note": "本账号博客等级<3，CSDN 禁止创建自定义标签，发布前需确认是否沿用平台已有推荐标签。",
+  "category": "人工智能",
+  "article_type": "原创",
+  "editor_type": "markdown",
+  "csdn_article_id": "162353173",
+  "csdn_draft_url": "https://editor.csdn.net/md?articleId=162353173",
+  "article_id": "162353173",
+  "draft_status": "draft_saved",
+  "pub_status": "draft",
+  "read_type": "public",
+  "cover_uploaded": true,
+  "content_images": [
+    {
+      "index": 0,
+      "alt": "调度不是代码，是三条谁也不能越界的规矩",
+      "src": "assets/18_一百个人同时要AI搭子谁说了算/01-three-rules.png",
+      "placeholder": "@@@IMG_0@@@"
+    },
+    {
+      "index": 1,
+      "alt": "TTL 租约模式：到期释放比等人走更可靠",
+      "src": "assets/18_一百个人同时要AI搭子谁说了算/02-lease-ttl.png",
+      "placeholder": "@@@IMG_1@@@"
+    },
+    {
+      "index": 2,
+      "alt": "透明代理：送到门口，不翻包",
+      "src": "assets/18_一百个人同时要AI搭子谁说了算/03-transparent-proxy.png",
+      "placeholder": "@@@IMG_2@@@"
+    }
+  ],
+  "image_count": 3,
+  "cover_image": "assets/18_一百个人同时要AI搭子谁说了算/cover.png",
+  "body_file": "article.placeholder.md",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "column": "看懂AI与智能体",
+  "session": {
+    "id": "csdn-18",
+    "status": "draft_saved",
+    "current_step": "draft-saved-with-cover",
+    "recoverable": true,
+    "platform": "csdn",
+    "cover_done": true
+  },
+  "generated_at": "2026-06-26T18:20:22.552Z",
+  "updated_at": "2026-06-26T23:10:00.000Z",
+  "sensitive_findings": []
+}

@@ -1,0 +1,72 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "AI 能记住你做过的事吗？看懂三层记忆，你就知道怎么跟它长期合作",
+  "summary": "AI不是记不住，是你需要帮它设计记忆。用办公桌的比喻讲透三层记忆：工作记忆（桌面有上限）、短期记忆（关掉会话就换抽屉）、长期记忆（档案柜靠组织方式而非存储技术）。三个递进案例覆盖从普通用户到开发者的需求。不是存储技术决定记忆质量，是组织方式。",
+  "tags": [
+    "人工智能",
+    "AI Agent",
+    "智能体",
+    "大语言模型",
+    "记忆系统"
+  ],
+  "category": "人工智能",
+  "article_type": "原创",
+  "editor_type": "markdown",
+  "source_content_package": "/Users/weizuxiao/Documents/workspaces/看懂AI与智能体/.csdn-publish/第7篇-三层记忆/ai-能记住你做过的事吗-看懂三层记忆-你就知道怎么跟它长期合作-d6569ac1",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "channel_actions": [
+    "prepare-csdn-markdown",
+    "save-draft-with-browser-automation",
+    "publish-after-human-confirmation"
+  ],
+  "validation_points": [
+    "markdown-preview",
+    "code-highlight-rendered",
+    "image-rendered",
+    "external-links-reviewed",
+    "category-and-tags-selected",
+    "originality-declaration",
+    "manual-publish-confirmation"
+  ],
+  "manual_steps": [
+    "open-csdn-creator",
+    "manual-login-if-needed",
+    "select-markdown-editor",
+    "paste-article-markdown",
+    "fill-title-summary-category-tags",
+    "confirm-originality-declaration",
+    "preview-article",
+    "save-draft",
+    "stop-before-publish"
+  ],
+  "preview_requirements": [
+    "markdown-rendered",
+    "code-highlight-rendered",
+    "images-rendered",
+    "links-clickable"
+  ],
+  "content_images": [],
+  "image_count": 0,
+  "session": {
+    "id": "csdn-a602941a77",
+    "status": "package-prepared",
+    "current_step": "channel-package-created",
+    "recoverable": true
+  },
+  "generated_at": "2026-06-21T08:35:55.855Z",
+  "sensitive_findings": [],
+  "checklist": [
+    "标题长度正常",
+    "摘要已生成，发布前可填入 CSDN 摘要/描述区域",
+    "标签已准备：人工智能、AI Agent、智能体、大语言模型、记忆系统",
+    "分类已设置：人工智能",
+    "文章类型：原创，发布前确认转载/翻译来源",
+    "代码块围栏数量正常",
+    "未检测到 Markdown 图片",
+    "包含外链，发布前检查链接可访问性与平台策略",
+    "发布前人工确认：标题、摘要、分类、标签、原创声明、代码块、图片、外链和敏感信息"
+  ]
+}

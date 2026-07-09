@@ -1,0 +1,25 @@
+{
+  "title": "卡在 FDE 入门的哪一步了？先判断该扛还是该换",
+  "summary": "本文介绍：卡在 FDE 入门的哪一步了？先判断该扛还是该换。卡在 FDE 入门的哪一步了？先判断该扛还是该换。",
+  "tags": [
+    "人工智能",
+    "AI编程"
+  ],
+  "category": "人工智能",
+  "column": "看懂AI和智能体",
+  "cover": "/Users/weizuxiao/Documents/studio/03-内容创作/看懂AI与智能体/assets/22_卡在FDE入门的哪一步了/cover.png",
+  "source_article": "22_卡在FDE入门的哪一步了.md",
+  "draft_status": "pending",
+  "images": [
+    {
+      "index": 0,
+      "alt": "决策矩阵：扛还是换，取决于你的行业信号和个人兴趣",
+      "src": "/Users/weizuxiao/Documents/studio/03-内容创作/看懂AI与智能体/assets/22_卡在FDE入门的哪一步了/01-decision-matrix.png"
+    },
+    {
+      "index": 1,
+      "alt": "三步失败模式总览：每一步对应的三种失败模式",
+      "src": "/Users/weizuxiao/Documents/studio/03-内容创作/看懂AI与智能体/assets/22_卡在FDE入门的哪一步了/02-failure-modes.png"
+    }
+  ]
+}

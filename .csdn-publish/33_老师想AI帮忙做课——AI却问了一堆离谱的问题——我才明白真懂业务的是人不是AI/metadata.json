@@ -1,0 +1,51 @@
+{
+  "title": "老师想 AI 帮忙做课,AI 却问了一堆“离谱”的问题——我才明白真懂业务的是人不是 AI",
+  "platform": "csdn",
+  "topic": "FDE 实战案例 · 业务心智篇",
+  "column": "看懂AI和智能体",
+  "column_id": "",
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "语言模型"
+  ],
+  "summary": "老师随口说「我要做 Java 培训」,AI 答得很快,交出的大纲却跟其他七份长得一样——不是 AI 不聪明,是没人教它问什么。本文用 ToB 课程设计真实场景,讲 FDE 怎么把老师含糊的需求,经 ADD 8 维度追问 + 4 轮硬约束 + JSON 标准化,剥成下游 Agent 可复用的业务模型。",
+  "cover_image": "assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/cover.png",
+  "source_article": "33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI.md",
+  "slug": "33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI",
+  "publish_status": "草稿",
+  "publish_date": null,
+  "visibility": "所有人可见",
+  "article_type": "原创",
+  "draft_id": "162520055",
+  "draft_url": "https://editor.csdn.net/md?not_checkout=1&articleId=162520055",
+  "published_url": null,
+  "images": [
+    {
+      "index": 0,
+      "alt": "老师一句话原始需求,从口语化到 AI 准备追问的全过程",
+      "src": "assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/01-raw-requirement-bubble-and-laptop.png"
+    },
+    {
+      "index": 1,
+      "alt": "AI 按 ADD 8 维度追问、3 轮覆盖的雷达图",
+      "src": "assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/02-radar-add-eight-dimensions.png"
+    },
+    {
+      "index": 2,
+      "alt": "4 轮追问 + 1 轮汇总确认的对话时间线,最右挂着红色汇总闸",
+      "src": "assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/03-dialogue-timeline-with-summary-gate.png"
+    },
+    {
+      "index": 3,
+      "alt": "标准化课程业务模型 JSON 的 9 字段 + 嵌套 4 层树状图",
+      "src": "assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/04-json-knowledge-tree.png"
+    },
+    {
+      "index": 4,
+      "alt": "老师、FDE、AI 三方对话协作关系图,FDE 在中间做业务翻译官",
+      "src": "assets/33_老师想AI帮忙做课——AI却问了一堆离谱的问题——我才明白真懂业务的是人不是AI/05-fde-three-way-collaboration.png"
+    }
+  ],
+  "notes": "FDE 系列 · 行道阶段(33+)第 1 篇 · 上篇业务心智篇;33/34 一组上下篇闭环(上篇业务边界+下篇工程落地)。注:title 字段将源文章中的英文直引号 离谱 调整为中文弯引号 “离谱” 以保持 JSON 合法性,正文 article 中保留源文章英文直引号原貌。"
+}

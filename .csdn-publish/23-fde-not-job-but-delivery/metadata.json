@@ -1,0 +1,49 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "FDE 不是一个新职位，是 AI 时代软件交付的新方式。越早看懂这个逻辑，越早卡位。",
+  "summary": "FDE 不是驻场开发的升级版。AI 越强，FDE 反而越值钱。三大核心能力：表达、业务架构力、抽象→沉淀→中台。装备清单：四套方法论 + 四类技术栈。",
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "FDE",
+    "软件架构"
+  ],
+  "tags_note": "本账号博客等级<3，CSDN 禁止创建自定义标签，发布前需确认是否沿用平台已有推荐标签。",
+  "category": "人工智能",
+  "article_type": "原创",
+  "editor_type": "markdown",
+  "csdn_draft_url": "",
+  "draft_status": "saved",
+  "pub_status": "draft",
+  "read_type": "public",
+  "cover_uploaded": false,
+  "content_images": [
+    {
+      "index": 0,
+      "alt": "FDE vs 驻场开发",
+      "src": "assets/23_FDE不是职位是交付方式/01-fde-vs-dev.png",
+      "placeholder": "@@@IMG_0@@@"
+    },
+    {
+      "index": 1,
+      "alt": "FDE 三大核心能力",
+      "src": "assets/23_FDE不是职位是交付方式/02-three-capabilities.png",
+      "placeholder": "@@@IMG_1@@@"
+    },
+    {
+      "index": 2,
+      "alt": "FDE 装备清单",
+      "src": "assets/23_FDE不是职位是交付方式/03-equipment.png",
+      "placeholder": "@@@IMG_2@@@"
+    }
+  ],
+  "image_count": 3,
+  "cover_image": "assets/23_FDE不是职位是交付方式/cover.png",
+  "body_file": "article.csdn.md",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "column": "看懂AI和智能体",
+  "generated_at": "2026-06-28T21:00:00.000Z"
+}

@@ -1,0 +1,72 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "多智能体不是堆 AI——跟着一个\"AI 编辑部\"看协作怎么跑通",
+  "summary": "多个 AI 凑在一起不叫团队。让一群 AI 真正协作跑通的不是数量，是人事先定好的秩序——谁拍板、谁干活、活怎么交接、错了谁兜底。跟着一个虚构的\"AI 编辑部\"从头跑一遍：单一出口、职责边界、带边界的上下文交接、评审兜底、人工接管、流水线 vs 评审两种队形，看懂多智能体协作的本质是治理。",
+  "tags": [
+    "人工智能",
+    "AI",
+    "多智能体",
+    "Agent",
+    "工作流"
+  ],
+  "category": "看懂AI和智能体",
+  "article_type": "original",
+  "editor_type": "markdown",
+  "source_content_package": "/Users/weizuxiao/Documents/workspaces/看懂AI与智能体/.csdn-publish/多智能体不是堆-ai-跟着一个-ai-编辑部-看协作怎么跑通-2bcdb9fc",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "channel_actions": [
+    "prepare-csdn-markdown",
+    "save-draft-with-browser-automation",
+    "publish-after-human-confirmation"
+  ],
+  "validation_points": [
+    "markdown-preview",
+    "code-highlight-rendered",
+    "image-rendered",
+    "external-links-reviewed",
+    "category-and-tags-selected",
+    "originality-declaration",
+    "manual-publish-confirmation"
+  ],
+  "manual_steps": [
+    "open-csdn-creator",
+    "manual-login-if-needed",
+    "select-markdown-editor",
+    "paste-article-markdown",
+    "fill-title-summary-category-tags",
+    "confirm-originality-declaration",
+    "preview-article",
+    "save-draft",
+    "stop-before-publish"
+  ],
+  "preview_requirements": [
+    "markdown-rendered",
+    "code-highlight-rendered",
+    "images-rendered",
+    "links-clickable"
+  ],
+  "content_images": [],
+  "image_count": 0,
+  "session": {
+    "id": "csdn-0017f19354",
+    "status": "package-prepared",
+    "current_step": "channel-package-created",
+    "recoverable": true
+  },
+  "generated_at": "2026-06-23T00:02:40.041Z",
+  "sensitive_findings": [],
+  "checklist": [
+    "标题长度正常",
+    "摘要已生成，发布前可填入 CSDN 摘要/描述区域",
+    "标签已准备：人工智能、AI、多智能体、Agent、工作流",
+    "分类已设置：看懂AI和智能体",
+    "文章类型：原创，发布前确认原创声明",
+    "代码块围栏数量正常",
+    "未检测到 Markdown 图片",
+    "未检测到外链",
+    "发布前人工确认：标题、摘要、分类、标签、原创声明、代码块、图片、外链和敏感信息"
+  ]
+}

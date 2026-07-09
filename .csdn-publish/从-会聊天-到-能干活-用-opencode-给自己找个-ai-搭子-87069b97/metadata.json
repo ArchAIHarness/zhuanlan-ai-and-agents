@@ -1,0 +1,27 @@
+{
+  "type": "content-package",
+  "topic": "看懂AI与智能体",
+  "title": "从\"会聊天\"到\"能干活\"：用 OpenCode 给自己找个 AI 搭子",
+  "summary": "和 AI 聊了半天就是落不了地？问题不在 AI 够不够聪明，而在你把它放错了地方。聊天框里的 AI 只能陪你唠嗑，给它一张工作台，它就能变成跟你一起干活的搭子。",
+  "tags": [
+    "AI",
+    "智能体",
+    "OpenCode",
+    "AI工具",
+    "效率工具"
+  ],
+  "status": "draft",
+  "review_gate": "required",
+  "target_channels": [
+    "csdn"
+  ],
+  "generated_at": "2026-06-19T17:01:14.205Z",
+  "channels": {},
+  "checklist": [
+    "选题已明确",
+    "标题长度正常",
+    "正文偏短，建议补充论证或案例",
+    "目标渠道：csdn",
+    "内容预审：检查事实、敏感信息、版权、外链、夸大表达和平台合规"
+  ]
+}

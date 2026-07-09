@@ -1,0 +1,22 @@
+{
+  "articleId": "",
+  "draft_url": "",
+  "imageCount": 5,
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "后端"
+  ],
+  "column": "看懂AI和智能体",
+  "cover": "cover.png",
+  "status": "草稿新建中",
+  "saved_at": "2026-07-09",
+  "last_checked_at": "2026-07-09T09:30",
+  "last_status": "channel_pkg_created",
+  "last_fixes": [
+    "[2026-07-09 09:30 渠道包补齐] 由 content-publisher 从原稿 .md 重建,基于主编授权\"原稿怎么补不 care,csdn 给我维护好\""
+  ],
+  "title": "灰度发布不是抽个签——金丝雀蓝绿滚动红黑四种姿势加五道闸把新版本稳稳送上去",
+  "slug": "54_灰度发布不是抽个签——金丝雀蓝绿滚动红黑四种姿势加五道闸把新版本稳稳送上去",
+  "assets_dir": "assets/54_灰度发布不是抽个签——金丝雀蓝绿滚动红黑四种姿势加五道闸把新版本稳稳送上去"
+}

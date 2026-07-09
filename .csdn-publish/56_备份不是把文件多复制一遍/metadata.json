@@ -1,0 +1,14 @@
+{
+  "articleId": "162661494",
+  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162661494",
+  "title": "备份不是把文件多复制一遍——三种姿势加四道闸，把备份做成真能救命的保险",
+  "slug": "56_备份不是把文件多复制一遍",
+  "imageCount": 5,
+  "tags": ["人工智能", "AI编程", "后端"],
+  "column": "看懂AI和智能体",
+  "summary": "三种备份姿势（全家/周报/日报）配四道闸（3-2-1铁律/演练/RPO-RTO SLA/校验）。",
+  "cover": "cover.png",
+  "cover_hash": "7180adcbba4244d0b02d8eb11a19dbc0",
+  "status": "草稿已就绪",
+  "saved_at": "2026-07-07"
+}

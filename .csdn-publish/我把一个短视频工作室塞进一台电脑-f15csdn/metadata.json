@@ -1,0 +1,61 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "我把一个短视频工作室，塞进了一台电脑——一个总监带一支制片团队，从选题做到成片",
+  "summary": "一句话需求到一条成片，背后是一个制片总监带五个专员的完整团队。这篇把组织怎么塞进一个文件夹、对接人怎么定、专员怎么分工、知识库怎么当组织记忆全摊开，配置和可抄的代码一样不少。",
+  "tags": ["人工智能", "语言模型", "AI编程"],
+  "tags_note": "本账号博客等级<3，CSDN 禁止创建自定义标签，沿用平台已有推荐标签（人工智能、语言模型、AI编程）。",
+  "category": "人工智能",
+  "article_type": "original",
+  "editor_type": "markdown",
+  "source_article": "15_我把一个短视频工作室塞进一台电脑.md",
+  "body_file": "article.final.md",
+  "draft_status": "draft_saved",
+  "pub_status": "draft",
+  "read_type": "public",
+  "csdn_category_column": "看懂AI和智能体",
+  "cover_image": "assets/15_我把一个短视频工作室塞进一台电脑/cover.png",
+  "content_images": [
+    { "index": 0, "alt": "你只跟总监一个人说话——总监带着五个各管一摊的专员", "src": "assets/15_我把一个短视频工作室塞进一台电脑/01-org-chart.png", "cdn_url": "https://i-blog.csdnimg.cn/direct/9bf7ee7a41204ec8aa522bb42a3ceb33.png" },
+    { "index": 1, "alt": "整个团队就是一个文件夹——.opencode/agents 下每个 .md 文件就是一个角色", "src": "assets/15_我把一个短视频工作室塞进一台电脑/02-folder-is-team.png", "cdn_url": "https://i-blog.csdnimg.cn/direct/57a462b6421e4393adb9a22655e88389.png" },
+    { "index": 2, "alt": "知识库就是团队的组织记忆——动笔前先读、做完回写，越用越懂你", "src": "assets/15_我把一个短视频工作室塞进一台电脑/03-knowledge-memory.png", "cdn_url": "https://i-blog.csdnimg.cn/direct/998490b20c0d48529e601b1629c27c6c.png" }
+  ],
+  "image_count": 3,
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "validation_points": [
+    "markdown-preview",
+    "image-rendered",
+    "external-links-reviewed",
+    "category-and-tags-selected",
+    "originality-declaration",
+    "manual-publish-confirmation"
+  ],
+  "column": "看懂AI与智能体",
+  "csdn_article_id": "162288130",
+  "csdn_draft_url": "https://editor.csdn.net/md?articleId=162288130",
+  "article_id": "162288130",
+  "published_url": "",
+  "duplicate_drafts_to_clean": ["162287922"],
+  "session": {
+    "id": "csdn-15",
+    "status": "draft_saved",
+    "current_step": "draft-saved-all-settings",
+    "recoverable": true,
+    "platform": "csdn",
+    "publish_gate": "manual-confirmation-required",
+    "cover_done": true
+  },
+  "settings": {
+    "tags": ["人工智能", "语言模型", "AI编程"],
+    "column": "看懂AI和智能体",
+    "article_type": "原创",
+    "visibility": "全部可见",
+    "multi_platform": false,
+    "summary_len": 87,
+    "images": 3,
+    "cover_uploaded": true
+  },
+  "sensitive_findings": []
+}

@@ -1,0 +1,14 @@
+{
+  "articleId": "162661682",
+  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162661682",
+  "title": "家里的总电闸要拉一拉就知道——配置中心不是把参数挪个地方，是让你改一个值全屋都不用动",
+  "slug": "59_家里的总电闸要拉一拉就知道",
+  "imageCount": 5,
+  "tags": ["人工智能", "AI编程", "后端"],
+  "column": "看懂AI和智能体",
+  "summary": "改个数据库密码要重启所有服务/改个超时时间要重新打包发版——配置散落的典型事故。下篇卷袖子干活讲四层架构加五道闸。",
+  "cover": "cover.png",
+  "cover_hash": "366b5e168f484afa8ee2c0e00fcaf341",
+  "status": "草稿已就绪",
+  "saved_at": "2026-07-07"
+}

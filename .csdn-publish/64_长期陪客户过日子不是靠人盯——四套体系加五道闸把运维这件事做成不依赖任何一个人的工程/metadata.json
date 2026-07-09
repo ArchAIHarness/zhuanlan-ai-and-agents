@@ -1,0 +1,22 @@
+{
+  "articleId": "",
+  "draft_url": "",
+  "imageCount": 5,
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "后端"
+  ],
+  "column": "看懂AI和智能体",
+  "cover": "cover.png",
+  "status": "草稿新建中",
+  "saved_at": "2026-07-09",
+  "last_checked_at": "2026-07-09T09:30",
+  "last_status": "channel_pkg_created",
+  "last_fixes": [
+    "[2026-07-09 09:30 渠道包补齐] 由 content-publisher 从原稿 .md 重建,基于主编授权\"原稿怎么补不 care,csdn 给我维护好\""
+  ],
+  "title": "长期陪客户过日子不是靠人盯——四套体系加五道闸，把运维这件事做成不依赖任何一个人的工程",
+  "slug": "64_长期陪客户过日子不是靠人盯——四套体系加五道闸把运维这件事做成不依赖任何一个人的工程",
+  "assets_dir": "assets/64_长期陪客户过日子不是靠人盯"
+}

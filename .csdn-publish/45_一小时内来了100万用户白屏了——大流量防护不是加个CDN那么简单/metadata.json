@@ -1,0 +1,85 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "一小时内来了 100 万用户，白屏了——大流量防护不是\"加个 CDN\"那么简单",
+  "summary": "客户半夜来电：\"100万用户涌入就白屏了。\"工程师说\"我加了CDN啊\"。问题出在哪？下水道容量是固定的，水龙头开着100万的流量一定堵。这一篇把大流量防护拆成水龙头、下水道、水表、溢洪道四件事——CDN/网关限流/排队页、应用层+DB、实时监控+告警、降级开关——四道闸一道都不能少。下一次拆五道工程纪律：CDN选型、网关限流、Sentinel、降级熔断、排队系统。",
+  "tags": ["人工智能", "AI编程", "后端"],
+  "tags_note": "本账号博客等级<3，CSDN 禁止创建自定义标签，发布前需确认是否沿用平台已有推荐标签。",
+  "category": "人工智能",
+  "article_type": "原创",
+  "editor_type": "markdown",
+  "csdn_article_id": "162720121",
+  "csdn_draft_url": "https://editor.csdn.net/md?articleId=162720121",
+  "article_id": "162720121",
+  "draft_status": "draft_saved",
+  "pub_status": "draft",
+  "read_type": "public",
+  "cover_uploaded": true,
+  "cover_cdn_url": "https://i-blog.csdnimg.cn/direct/4abe097bedc54f15994eaf63629629ce.png",
+  "content_images": [
+    {
+      "index": 0,
+      "alt": "客户打电话100万用户白屏 + 工程师看着CPU 100%",
+      "src": "assets/45_一小时内来了100万用户白屏了——大流量防护不是加个CDN那么简单/01-1m-users-white-screen.png",
+      "placeholder": "@@@IMG_1@@@",
+      "anchor_text": "下面我会用一个生活化的比喻——**水龙头和下水道**——带你把这事刻到脑子里。"
+    },
+    {
+      "index": 1,
+      "alt": "水龙头与下水道的容量对照图",
+      "src": "assets/45_一小时内来了100万用户白屏了——大流量防护不是加个CDN那么简单/02-faucet-vs-drain.png",
+      "placeholder": "@@@IMG_2@@@",
+      "anchor_text": "啥图？下面这张图。"
+    },
+    {
+      "index": 2,
+      "alt": "大流量三类场景：突发热点/秒杀/爬虫",
+      "src": "assets/45_一小时内来了100万用户白屏了——大流量防护不是加个CDN那么简单/03-three-scenarios.png",
+      "placeholder": "@@@IMG_3@@@",
+      "anchor_text": "**突发热点用 CDN + 网关 + 排队页，因为来不及提前动手。**"
+    },
+    {
+      "index": 3,
+      "alt": "白屏七步事故链",
+      "src": "assets/45_一小时内来了100万用户白屏了——大流量防护不是加个CDN那么简单/04-white-screen-accident-chain.png",
+      "placeholder": "@@@IMG_4@@@",
+      "anchor_text": "**FDE 第一年值夜班，凌晨三点接电话，先别慌——按这七步走一遍，5 分钟能定位是哪个环节出事。**"
+    },
+    {
+      "index": 4,
+      "alt": "三个反常识金句警示牌",
+      "src": "assets/45_一小时内来了100万用户白屏了——大流量防护不是加个CDN那么简单/05-three-misconceptions.png",
+      "placeholder": "@@@IMG_5@@@",
+      "anchor_text": "**金句 3：\"水平扩展要 3-5 天，临时抱佛脚没用。\"**"
+    }
+  ],
+  "image_count": 5,
+  "cover_image": "assets/45_一小时内来了100万用户白屏了——大流量防护不是加个CDN那么简单/cover.png",
+  "body_file": "一小时内来了 100 万用户，白屏了——大流量防护不是\"加个 CDN\"那么简单.md",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "column": "看懂AI和智能体",
+  "slug": "45_一小时内来了100万用户白屏了——大流量防护不是加个CDN那么简单",
+  "assets_dir": "assets/45_一小时内来了100万用户白屏了——大流量防护不是加个CDN那么简单",
+  "session": {
+    "id": "csdn-45",
+    "status": "draft_saved",
+    "current_step": "settings-complete",
+    "recoverable": true,
+    "platform": "csdn",
+    "cover_done": true,
+    "tags_added": ["人工智能", "后端", "AI编程"],
+    "column_selected": "看懂AI和智能体",
+    "summary_set": true,
+    "summary_length": 183
+  },
+  "generated_at": "2026-07-09T09:30:00.000Z",
+  "updated_at": "2026-07-09T10:55:00.000Z",
+  "sensitive_findings": [],
+  "last_status": "draft_saved",
+  "last_fixes": [
+    "[2026-07-09 09:30 渠道包补齐] 由 content-publisher 从原稿 .md 重建",
+    "[2026-07-09 10:55 同步执行] 新建 articleId 162720121，5 张图 CDN 化，封面/摘要(183字)/专栏(看懂AI和智能体)/标签(人工智能·后端·AI编程) 全配；保存 API 部分 401 但 article 已存在并验证可见"
+  ]
+}

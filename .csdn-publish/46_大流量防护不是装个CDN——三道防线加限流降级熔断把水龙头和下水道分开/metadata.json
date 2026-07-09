@@ -1,0 +1,23 @@
+{
+  "articleId": "162732164",
+  "draft_url": "https://editor.csdn.net/md/?articleId=162732164",
+  "imageCount": 5,
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "后端"
+  ],
+  "column": "看懂AI和智能体",
+  "cover": "cover.png",
+  "status": "草稿已就绪",
+  "saved_at": "2026-07-09",
+  "last_checked_at": "2026-07-09T15:25",
+  "last_status": "md_imported_4_issues_fixed",
+  "last_fixes": [
+    "[2026-07-09 09:30 渠道包补齐] 由 content-publisher 从原稿 .md 重建,基于主编授权\"原稿怎么补不 care,csdn 给我维护好\"",
+    "[2026-07-09 15:25 内容订正] 草稿 .md 用 setInputFiles 导入到 162732164(原 162610249 内容错: §×6 / 微服务×2); 162610249 已删"
+  ],
+  "title": "大流量防护不是装个 CDN——三道防线 + 限流/降级/熔断，把水龙头和下水道分开",
+  "slug": "46_大流量防护不是装个CDN——三道防线加限流降级熔断把水龙头和下水道分开",
+  "assets_dir": "assets/46_大流量防护不是装个CDN——三道防线加限流降级熔断把水龙头和下水道分开"
+}

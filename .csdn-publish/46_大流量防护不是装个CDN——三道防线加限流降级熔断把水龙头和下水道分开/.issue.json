@@ -1,0 +1,29 @@
+{
+  "step0_status": "FAILED",
+  "step0_checks": {
+    "section_marker": "✅ 0 hits",
+    "h1_unique": "✅ 0 hits",
+    "opening_blockquote": "❌ 0 hits (开头是纯文本,无 blockquote)",
+    "image_count": "✅ 5 hits",
+    "forbidden_words": "✅ 0 hits",
+    "issue_xx_indicator": "❌ 4 hits (L2/L12/L412/L414-416 出现 上一篇/这一篇)"
+  },
+  "stopped_reason": "按主理人 2026-07-09 硬命令: Step 0 不过立即停止,记 issue,不自行打补丁",
+  "issues": [
+    {
+      "type": "opening_blockquote",
+      "severity": "high",
+      "location": "L1-L2 开头",
+      "detail": "开头无 > blockquote,违反专栏开头四步走规则(读者已有认知+具体场景+转折+核心判断)"
+    },
+    {
+      "type": "issue_xx_indicator",
+      "severity": "high",
+      "location": "L2, L12, L412, L414, L416",
+      "detail": "'上一篇/这一篇' 4 处代指,违反主理人 2026-07-09 '不能有 xx 期/xx 篇代指' 新硬命令。需改为'上一回/这回/这一节/后面那一节'或自然衔接"
+    }
+  ],
+  "recorded_at": "2026-07-09T11:02",
+  "recorded_by": "content-publisher",
+  "next_action": "等主编确认是修复原稿还是接受当前状态"
+}

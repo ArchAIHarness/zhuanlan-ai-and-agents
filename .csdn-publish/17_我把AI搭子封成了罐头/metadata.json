@@ -1,0 +1,56 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "我把 AI 搭子封成了罐头——没自己造一个零件，只划了一条线",
+  "summary": "把单机AI搭子封装成标准化、开箱即用的容器镜像。产品化设计的本质不是封装技术，是划清平台与用户的边界。核心三刀：哪些焊死归我、哪些让出去归用户、哪些默认兜底不抢位。",
+  "tags": ["人工智能", "AI编程", "容器化", "Docker", "产品化"],
+  "tags_note": "本账号博客等级<3，CSDN 禁止创建自定义标签，发布前需确认是否沿用平台已有推荐标签。",
+  "category": "人工智能",
+  "article_type": "原创",
+  "editor_type": "markdown",
+  "csdn_article_id": "162353103",
+  "csdn_draft_url": "https://editor.csdn.net/md?articleId=162353103",
+  "article_id": "162353103",
+  "draft_status": "draft_saved",
+  "pub_status": "draft",
+  "read_type": "public",
+  "cover_uploaded": true,
+  "content_images": [
+    {
+      "index": 0,
+      "alt": "产品化第一刀：划清平台和用户的边界线",
+      "src": "assets/17_我把AI搭子封成了罐头/01-territory-line.png",
+      "placeholder": "@@@IMG_0@@@"
+    },
+    {
+      "index": 1,
+      "alt": "seed-if-absent：默认兜底 + 用户优先",
+      "src": "assets/17_我把AI搭子封成了罐头/02-seed-if-absent.png",
+      "placeholder": "@@@IMG_1@@@"
+    },
+    {
+      "index": 2,
+      "alt": "开盖即用：三个文件定规矩",
+      "src": "assets/17_我把AI搭子封成了罐头/03-three-templates.png",
+      "placeholder": "@@@IMG_2@@@"
+    }
+  ],
+  "image_count": 3,
+  "cover_image": "assets/17_我把AI搭子封成了罐头/cover.png",
+  "body_file": "article.placeholder.md",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "column": "看懂AI与智能体",
+  "session": {
+    "id": "csdn-17",
+    "status": "draft_saved",
+    "current_step": "draft-saved-with-cover",
+    "recoverable": true,
+    "platform": "csdn",
+    "cover_done": true
+  },
+  "generated_at": "2026-06-26T18:20:06.280Z",
+  "updated_at": "2026-06-26T23:00:00.000Z",
+  "sensitive_findings": []
+}

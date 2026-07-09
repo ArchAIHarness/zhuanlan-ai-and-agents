@@ -1,0 +1,123 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "RAG 的关键从来不是向量——是你能不能把对的内容捞出来",
+  "summary": "RAG 的内核是检索增强生成，命门是能不能稳定检索到对的内容，不是用了什么技术范式。技术只是手段，为了\"看起来像在做 RAG\"而上向量，是把手段当目的。大多数人和 C 端产品靠结构化目录就能稳定捞对，根本不用向量；只有海量、模糊、说不清类目的平台级搜索才轮到向量，且最佳形态是做成 MCP 被接入。",
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "全文检索",
+    "语言模型",
+    "知识图谱"
+  ],
+  "tags_intended": [
+    "RAG",
+    "向量数据库",
+    "检索增强生成",
+    "AI Agent",
+    "MCP"
+  ],
+  "tags_note": "本账号博客等级<3，CSDN 禁止创建自定义标签，最终改用平台已有标签（贴合 RAG/检索/大模型主题）",
+  "category": "人工智能",
+  "article_type": "original",
+  "editor_type": "markdown",
+  "article_id": 162219052,
+  "draft_status": "saved",
+  "csdn_status_code": 2,
+  "pub_status": "draft",
+  "read_type": "public",
+  "csdn_category_column": "看懂AI和智能体",
+  "cover_cdn_url": "https://i-blog.csdnimg.cn/direct/8e382d3fbc904adba727d263159724c2.png",
+  "content_image_cdn_urls": [
+    "https://i-blog.csdnimg.cn/direct/cb09213144d841748c0b925a3d63d6f9.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/f7947fb6bb8a4a0da98b5afa8696ec05.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/352331841cab43c180ad183c47c66fd6.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/03f837ad21a847169152b7834751e9a7.png#pic_center"
+  ],
+  "source_content_package": "",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "channel_actions": [
+    "prepare-csdn-markdown",
+    "save-draft-with-browser-automation",
+    "publish-after-human-confirmation"
+  ],
+  "validation_points": [
+    "markdown-preview",
+    "code-highlight-rendered",
+    "image-rendered",
+    "external-links-reviewed",
+    "category-and-tags-selected",
+    "originality-declaration",
+    "manual-publish-confirmation"
+  ],
+  "manual_steps": [
+    "open-csdn-creator",
+    "manual-login-if-needed",
+    "select-markdown-editor",
+    "import-placeholder-markdown",
+    "fix-title-after-import",
+    "upload-images-via-placeholder-replacement",
+    "fill-summary-category-tags",
+    "confirm-originality-declaration",
+    "preview-article",
+    "save-draft",
+    "stop-before-publish"
+  ],
+  "preview_requirements": [
+    "markdown-rendered",
+    "code-highlight-rendered",
+    "images-rendered",
+    "links-clickable"
+  ],
+  "content_images": [
+    {
+      "index": 0,
+      "alt": "RAG 三步骤：命门在检索，向量只是手段",
+      "src": "assets/09_RAG的关键从来不是向量/01-retrieval-is-the-core.png",
+      "placeholder": "@@@IMG_0@@@"
+    },
+    {
+      "index": 1,
+      "alt": "检索不是越多越好，是越准越好：厨子要葱 vs 端来一冰箱",
+      "src": "assets/09_RAG的关键从来不是向量/02-chef-needs-scallion.png",
+      "placeholder": "@@@IMG_1@@@"
+    },
+    {
+      "index": 2,
+      "alt": "目录本身就是检索路径：人怎么分类，AI 就怎么找",
+      "src": "assets/09_RAG的关键从来不是向量/03-catalog-as-retrieval-path.png",
+      "placeholder": "@@@IMG_2@@@"
+    },
+    {
+      "index": 3,
+      "alt": "渐进式披露：先读总览地图，再进一层读小地图，定位到那一篇才打开",
+      "src": "assets/09_RAG的关键从来不是向量/04-map-progressive-disclosure.png",
+      "placeholder": "@@@IMG_3@@@"
+    }
+  ],
+  "image_count": 4,
+  "cover_image": "assets/09_RAG的关键从来不是向量/cover.png",
+  "column": "看懂AI与智能体",
+  "published_url": "https://blog.csdn.net/wzx_cx/article/details/162219052",
+  "session": {
+    "id": "csdn-163cd01356",
+    "status": "published",
+    "current_step": "published",
+    "recoverable": true
+  },
+  "generated_at": "2026-06-22T20:02:33.449Z",
+  "sensitive_findings": [],
+  "checklist": [
+    "标题长度正常",
+    "摘要已生成，发布前可填入 CSDN 摘要/描述区域",
+    "标签已准备：RAG、向量数据库、检索增强生成、AI Agent、MCP",
+    "分类已设置：人工智能",
+    "文章类型：原创，发布前确认原创声明",
+    "代码块围栏数量正常",
+    "包含 4 张图片，使用占位符替换法逐张上传并验证",
+    "包含外链，发布前检查链接可访问性与平台策略",
+    "发布前人工确认：标题、摘要、分类、标签、原创声明、代码块、图片、外链和敏感信息"
+  ]
+}

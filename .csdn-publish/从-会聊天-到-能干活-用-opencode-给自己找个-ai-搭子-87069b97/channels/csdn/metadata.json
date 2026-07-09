@@ -1,0 +1,72 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "从\"会聊天\"到\"能干活\"：用 OpenCode 给自己找个 AI 搭子",
+  "summary": "和 AI 聊了半天就是落不了地？问题不在 AI 够不够聪明，而在你把它放错了地方。聊天框里的 AI 只能陪你唠嗑，给它一张工作台，它就能变成跟你一起干活的搭子。",
+  "tags": [
+    "AI",
+    "智能体",
+    "OpenCode",
+    "AI工具",
+    "效率工具"
+  ],
+  "category": "人工智能",
+  "article_type": "原创",
+  "editor_type": "markdown",
+  "source_content_package": "/Users/weizuxiao/Documents/workspaces/内容创作/0x30_AI基础与大模型/看懂AI与智能体/channels/csdn/从-会聊天-到-能干活-用-opencode-给自己找个-ai-搭子-87069b97",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "channel_actions": [
+    "prepare-csdn-markdown",
+    "save-draft-with-browser-automation",
+    "publish-after-human-confirmation"
+  ],
+  "validation_points": [
+    "markdown-preview",
+    "code-highlight-rendered",
+    "image-rendered",
+    "external-links-reviewed",
+    "category-and-tags-selected",
+    "originality-declaration",
+    "manual-publish-confirmation"
+  ],
+  "manual_steps": [
+    "open-csdn-creator",
+    "manual-login-if-needed",
+    "select-markdown-editor",
+    "paste-article-markdown",
+    "fill-title-summary-category-tags",
+    "confirm-originality-declaration",
+    "preview-article",
+    "save-draft",
+    "stop-before-publish"
+  ],
+  "preview_requirements": [
+    "markdown-rendered",
+    "code-highlight-rendered",
+    "images-rendered",
+    "links-clickable"
+  ],
+  "content_images": [],
+  "image_count": 0,
+  "session": {
+    "id": "csdn-89cc1de268",
+    "status": "package-prepared",
+    "current_step": "channel-package-created",
+    "recoverable": true
+  },
+  "generated_at": "2026-06-19T17:01:14.205Z",
+  "sensitive_findings": [],
+  "checklist": [
+    "标题长度正常",
+    "摘要已生成，发布前可填入 CSDN 摘要/描述区域",
+    "标签已准备：AI、智能体、OpenCode、AI工具、效率工具",
+    "分类已设置：人工智能",
+    "文章类型：原创，发布前确认转载/翻译来源",
+    "代码块围栏数量正常",
+    "未检测到 Markdown 图片",
+    "未检测到外链",
+    "发布前人工确认：标题、摘要、分类、标签、原创声明、代码块、图片、外链和敏感信息"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "step0_status": "FAILED",
+  "step0_checks": {
+    "section_marker": "✅ 0 hits",
+    "h1_unique": "✅ 0 hits",
+    "opening_blockquote": "✅ 2 hits",
+    "image_count": "✅ 5 hits",
+    "forbidden_words": "✅ 0 hits",
+    "issue_xx_indicator": "❌ 6 hits (L26/L28/L634/L640/L672)"
+  },
+  "stopped_reason": "按主理人 2026-07-09 硬命令: Step 0 不过立即停止",
+  "issues": [
+    {
+      "type": "issue_xx_indicator",
+      "severity": "high",
+      "location": "L26, L28, L634, L640, L672",
+      "detail": "'这一篇/这一段/下篇' 6 处代指,违反硬命令"
+    }
+  ],
+  "recorded_at": "2026-07-09T11:43",
+  "recorded_by": "content-publisher",
+  "next_action": "等主编处理原稿"
+}

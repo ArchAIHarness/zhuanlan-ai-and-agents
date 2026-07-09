@@ -1,0 +1,117 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "从一个 AI 到一支 AI 团队——手把手调教你的多智能体班子",
+  "summary": "多智能体不是多开几个 AI。难的是把那套秩序——谁拍板、谁干活、活怎么交接、谁兜底、哪一步必须人来——真正落到几个能改能删的文件里。这篇手把手带你从一个空文件夹起步，写班规、配主编/调研/撰稿/校对四个角色、留一道发布前的人工闸，搭出一支会分工会交接会互相挑错的 AI 班子。",
+  "tags": [
+    "人工智能",
+    "语言模型",
+    "AI编程"
+  ],
+  "tags_intended": [
+    "多智能体",
+    "Agent",
+    "工作流",
+    "AGENTS.md",
+    "OpenCode"
+  ],
+  "tags_note": "本账号博客等级<3，CSDN 禁止创建自定义标签，最终改用平台已有推荐标签（人工智能、语言模型、AI编程）；AI编程需先清空搜索框在推荐区点选",
+  "category": "人工智能",
+  "article_type": "original",
+  "editor_type": "markdown",
+  "article_id": 162224544,
+  "draft_status": "saved",
+  "csdn_status_code": 2,
+  "pub_status": "draft",
+  "read_type": "public",
+  "csdn_category_column": "看懂AI和智能体",
+  "cover_cdn_url": "uploaded-confirmed",
+  "content_image_cdn_urls": [
+    "https://i-blog.csdnimg.cn/direct/5d159e85533c4135961ccfa1c7b7d022.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/5a7fa8675eb94705965d388a24e487af.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/86f832c6a3a94e7a94696fdd70356730.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/2be8d094a46144d282120ecacbe81e88.png#pic_center"
+  ],
+  "source_content_package": "",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "channel_actions": [
+    "prepare-csdn-markdown",
+    "save-draft-with-browser-automation",
+    "publish-after-human-confirmation"
+  ],
+  "validation_points": [
+    "markdown-preview",
+    "code-block-rendered",
+    "image-rendered",
+    "external-links-reviewed",
+    "category-and-tags-selected",
+    "originality-declaration",
+    "manual-publish-confirmation"
+  ],
+  "manual_steps": [
+    "open-csdn-md-editor",
+    "inject-placeholder-markdown",
+    "fill-title",
+    "upload-images-via-placeholder-replacement",
+    "fill-cover-summary-category-tags",
+    "confirm-originality-declaration",
+    "save-draft",
+    "stop-before-publish"
+  ],
+  "content_images": [
+    {
+      "index": 0,
+      "alt": "空文件夹起步，先在脑子里摆好主编是唯一出口的班子队形",
+      "src": "assets/12_从一个AI到一支AI团队/01-team-formation.png",
+      "placeholder": "@@@IMG_0@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/5d159e85533c4135961ccfa1c7b7d022.png#pic_center"
+    },
+    {
+      "index": 1,
+      "alt": "四个角色文件各自的身份证：mode 定身份，permission 焊死边界",
+      "src": "assets/12_从一个AI到一支AI团队/02-role-files.png",
+      "placeholder": "@@@IMG_1@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/5a7fa8675eb94705965d388a24e487af.png#pic_center"
+    },
+    {
+      "index": 2,
+      "alt": "日常动作放手跑，发布类动作设成先问我的人工接管闸",
+      "src": "assets/12_从一个AI到一支AI团队/03-human-gate.png",
+      "placeholder": "@@@IMG_2@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/86f832c6a3a94e7a94696fdd70356730.png#pic_center"
+    },
+    {
+      "index": 3,
+      "alt": "主编派活、调研交素材、撰稿写、校对打回、最后交你点头的一圈流程",
+      "src": "assets/12_从一个AI到一支AI团队/04-run-through.png",
+      "placeholder": "@@@IMG_3@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/2be8d094a46144d282120ecacbe81e88.png#pic_center"
+    }
+  ],
+  "image_count": 4,
+  "cover_image": "assets/12_从一个AI到一支AI团队/cover.png",
+  "column": "看懂AI与智能体",
+  "published_url": "",
+  "session": {
+    "id": "csdn-12-draft",
+    "status": "draft-ready",
+    "current_step": "draft-saved",
+    "recoverable": true
+  },
+  "generated_at": "2026-06-23T02:12:47.000Z",
+  "sensitive_findings": [],
+  "checklist": [
+    "标题已填",
+    "摘要已填（138/256）",
+    "标签已选：人工智能、语言模型、AI编程（账号等级<3，自定义标签不可用）",
+    "分类专栏已勾选：看懂AI和智能体",
+    "封面已上传确认",
+    "文章类型：原创",
+    "可见范围：全部可见",
+    "4 张配图占位符替换法逐张上传并验证（imgCount=4，全部 csdnimg CDN）",
+    "正文含 10 个代码块（20 个围栏），编辑器内渲染正常",
+    "已点保存为草稿（articleId=162224544），停在发布前"
+  ]
+}

@@ -1,0 +1,163 @@
+# CSDN 浏览器操作手册：一百个人同时要 AI 搭子，谁说了算？——我写了个调度大脑，但真正的设计是三条死规矩
+
+## 原则
+
+- 不读取 Cookie、Token、密码、浏览器 profile 或 `.env`。
+- 不点击发布或更新，除非用户明确回复"确认发布到 CSDN"或"确认更新 CSDN 文章"。
+- 不执行评论、私信、关注、批量运营、引流等动作。
+- 出现验证码、安全验证、登录异常、审核提示或账号风险提示时立即停止。
+
+## 安全操作边界
+
+### ✅ 安全操作
+
+- 通过「更多操作 → 导入」导入 Markdown 文件填充正文（**首选**）
+- 使用 `execCommand('selectAll') + execCommand('insertText')` 全量替换正文
+- 使用 `execCommand('insertText')` 在光标位置插入文本
+- 点击工具栏按钮打开对话框（图片、链接、更多插入等）
+- 通过 file chooser API 上传文件（封面图、正文图片）
+- 使用 `value + dispatchEvent` 设置标题、摘要等输入框内容
+
+### ❌ 禁止操作
+
+- 在 <pre contenteditable> 编辑器上使用 element.innerText = content（会转 \n 为 <br>，行数变 2）
+- 使用 Playwright fill() 方法填充编辑器（会清空整个内容到 3 行）
+- 直接操作编辑器 DOM 节点（删除、插入节点）
+- 用 createTextNode + appendChild 设置内容（格式会丢失）
+- 绕过登录态、验证码、安全验证的任何操作
+- 不验证行数就直接认为注入成功
+
+## 草稿导入稳定流程
+
+> **重要**：CSDN Markdown 编辑器的粘贴行为不可靠。推荐优先用「导入」方式，粘贴仅作降级。
+
+### 方案 A：文件导入（推荐）
+
+1. 打开 CSDN Markdown 编辑器（确认 URL 含 `editor.csdn.net/md/`）。
+2. 如未登录，让用户在浏览器页面手动登录。
+3. 确认编辑器当前是 Markdown 模式（左下角有「Markdown」标识或切换按钮）。
+4. 点击右上角「更多操作」或 `···` 按钮，展开菜单。
+5. 选择「导入」选项，打开文件选择对话框。
+6. 选择 `article.csdn.md`（有图片则选 `article.placeholder.md`）。
+7. 等待导入完成后验证：
+   - 正文首段内容与文件一致
+   - 代码块正常显示（没有被转义）
+   - 标题区域内容正确（导入后标题可能是文件名，需修正）
+   - 有图片时，占位符 `@@@IMG_N@@@` 完整出现在正文中
+8. 修正标题：用 `titleInput.value = 标题` + dispatchEvent 触发 input/change 事件。
+9. 保存草稿，确认草稿状态稳定。
+
+### 方案 B：execCommand 全量替换（降级）
+
+当「导入」按钮不可用或导入失败时使用：
+
+1. 点击编辑器正文区域获得焦点。
+2. 执行 `document.execCommand('selectAll')` 全选当前内容。
+3. 执行 `document.execCommand('insertText', false, markdownContent)` 插入新内容。
+4. 验证：正文首段出现、代码块完整、没有「undefined」或「[object Object]」。
+5. 如内容不对，撤销（Ctrl+Z）后重试，或让用户手动粘贴。
+
+### 方案 C：textContent 注入 <pre> 编辑器（自动化最佳方案）
+
+当 CSDN 编辑器为 Markdown 模式时（检测到 `<pre class="editor__inner" contenteditable>`），推荐用此方案：
+
+**原理**：CSDN Markdown 编辑器使用 `<pre contenteditable>` 存储纯文本内容，
+`textContent` 可保留真实 `\n` 换行符，被状态栏的行数计数器正确识别。
+
+1. 确认编辑器是 Markdown 模式（检查页面是否存在 `.editor__inner` 元素）。
+2. 通过 `page.evaluate()` 在浏览器中执行注入：
+   ```javascript
+   const ed = document.querySelector('.editor__inner');
+   ed.innerHTML = '';          // 清空（同步 Vue 状态）
+   ed.textContent = content;    // 注入内容，保留 \n
+   ```
+3. 注入后立即验证：
+   - 读取状态栏文字：「Markdown | XXXX 字数 | XX 行数」
+   - 检查行数是否与原始文件接近（±1 行）
+   - 如果行数只有 2-3，说明错误地用了 innerText，需清理后重试
+4. 通过后设置标题、分类等元信息。
+
+**关于中文编码**：如果内容需要 base64 传输，必须用 `decodeURIComponent(escape(atob(b64)))`
+解码，因为 `atob()` 仅支持 Latin-1，会损坏中文字符。
+
+### 方案 D：用户手动粘贴（最终降级）
+
+当以上方案都不可靠时，停下来让用户手动粘贴：
+
+1. 告诉用户：请手动把 `article.csdn.md` 的内容粘贴到 CSDN 编辑器。
+2. 用户粘贴完成后，AI 再继续做分类、标签、原创声明等元信息设置。
+
+## 草稿流程总览
+
+### 第一阶段：基础内容填充
+
+1. 打开 CSDN 创作中心或 Markdown 编辑器。
+2. 如未登录，让用户在浏览器页面手动登录。
+3. 选择 Markdown 编辑器或确认当前编辑器支持 Markdown。
+4. 按「草稿导入稳定流程」导入正文内容（优先方案 A）。
+5. 修正标题。
+6. 填写或核对分类、标签和原创/转载/翻译声明。
+
+### 第二阶段：图片上传（有图片时执行）
+
+本文无正文配图，跳过图片上传阶段。
+
+
+
+### 第三阶段：元信息完善
+
+1. 填写摘要（80-160 字，不含敏感信息）。
+2. 设置分类和标签（2-5 个技术标签）。
+3. 确认原创/转载/翻译声明。
+4. 上传封面图（如有）。
+
+### 第四阶段：验收与发布前检查
+
+1. 切换到预览模式检查：
+   - 代码块闭合且高亮正常
+   - 所有图片正常显示（无「外链图片转存失败」）
+   - 外链可访问
+   - 目录结构正确
+   - 标题与正文首屏一致
+2. 保存草稿。
+3. 停在发布前，等待用户明确回复"确认发布到 CSDN"。
+
+## 常见问题与故障排查
+
+| 问题 | 可能原因 | 处理方式 |
+|------|---------|---------|
+| 行数只有 2-3（应有 300+） | 错误使用 innerText 注入 | 清理后用 textContent 重试 |
+| 中文字符乱码 | atob() 用 Latin-1 解码中文 | 改用 decodeURIComponent(escape(atob(b64))) |
+| 粘贴后内容为空或只有部分 | CSDN 编辑器拦截了 clipboard 事件 | 改用「导入」或 textContent 方案 |
+| 导入后标题是文件名 | 导入功能用文件名做标题 | 手动设置正确标题 |
+| 代码块格式乱了 | 导入时 Markdown 解析有问题 | 检查源文件代码块围栏是否配对；用方案 B/C 重试 |
+| 图片上传后不显示 | 外链图片转存失败或上传超时 | 必须用占位符替换法，逐张上传本地图片 |
+| 封面图上传后确认按钮没反应 | 网络或文件格式不支持 | 使用 .png/.jpg，检查浏览器控制台 |
+| 工具栏按钮找不到 | CSDN UI 改版了 | 截图检查实际布局，调整选择器 |
+| 分类/标签弹窗打不开 | 编辑器没获得焦点 | 先点击正文区域，再操作工具栏 |
+| 保存草稿失败 | 网络问题或内容含敏感词 | 检查网络；分段保存定位问题内容 |
+
+## 降级选择器参考
+
+CSDN UI 可能变化，每个操作建议准备 2-3 个选择器，第一个失败就试下一个。
+
+| 操作 | 首选选择器 | 降级选择器 | 备选 |
+|------|-----------|-----------|------|
+| 标题输入框 | `input[placeholder*="标题"]` | `#txtTitle` | `.article-title input` |
+| 工具栏图片按钮 | 「更多插入」左侧第二个按钮 | `button[aria-label*="图片"]` | `button[title*="图片"]` |
+| 标签输入框 | `input[placeholder*="请输入文字搜索"]` | `input[placeholder*="标签"]` | `.tag-dialog input` |
+| 摘要输入框 | `textarea[aria-label*="摘要"]` | `textarea[placeholder*="摘要"]` | `#txtSammary` |
+| 更多操作按钮 | `button:has-text("更多操作")` | `.more-ops-btn` | `button[aria-label*="更多"]` |
+| 导入按钮 | `button:has-text("导入")` | `.import-btn` | `li:has-text("导入")` |
+| 保存草稿按钮 | `button:has-text("保存草稿")` | `.button-save` | `button[aria-label*="保存"]` |
+| 发布文章按钮 | `button:has-text("发布文章")` | `.publish-btn` | `button[aria-label*="发布"]` |
+
+## 验收重点
+
+- 标题与正文首屏一致。
+- 摘要没有敏感信息和夸大表达。
+- 分类和标签符合文章主题。
+- 原创声明选择正确。
+- 代码块闭合且高亮正常。
+- 图片显示正常（0 张全部渲染，无转存失败提示）。
+- 外链可访问。

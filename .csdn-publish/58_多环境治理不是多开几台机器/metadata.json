@@ -1,0 +1,14 @@
+{
+  "articleId": "162661616",
+  "draft_url": "https://editor.csdn.net/md/?not_checkout=1&rw=1&articleId=162661616",
+  "title": "多环境治理不是多开几台机器——开发、测试、预发布、生产四套环境加五道闸，把每种用途各安一个家",
+  "slug": "58_多环境治理不是多开几台机器",
+  "imageCount": 5,
+  "tags": ["人工智能", "AI编程", "后端"],
+  "column": "看懂AI和智能体",
+  "summary": "开发/测试/预发布/生产四套环境职责 + 五道闸。环境各归各位，出事才找得到责任人。",
+  "cover": "cover.png",
+  "cover_hash": "33ef6806269541daa7303b01546d2a80",
+  "status": "草稿已就绪",
+  "saved_at": "2026-07-07"
+}

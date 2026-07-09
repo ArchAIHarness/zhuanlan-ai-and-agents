@@ -1,0 +1,59 @@
+{
+  "platform": "csdn",
+  "articleId": null,
+  "title": "AI 不是 AI 写代码，是 AI 在秩序内写代码——我用 gateway + auth + user + tenant 串起一条多租户认证流程",
+  "summary": "AI 不是放手让它跑，是在秩序内自主开发。这一篇用 gateway 平台层 + auth/user/tenant 三个限界上下文串起一条完整的多租户认证链路，让你看清「硬秩序焊边界、软秩序放选择」怎么落到一行行代码、一份份 AGENTS.md、一次次 PR 合并上。",
+  "summaryCharCount": 119,
+  "tags": ["人工智能", "AI编程", "语言模型"],
+  "category": "看懂AI和智能体",
+  "articleType": "原创",
+  "visibility": "全部可见",
+  "multiPlatform": false,
+  "cover": "assets/28_AI不是AI写代码-是AI在秩序内写代码-我用gateway-auth-user-tenant串起一条多租户认证流程/cover.png",
+  "imagePositions": [
+    {
+      "index": 0,
+      "file": "assets/28_AI不是AI写代码-是AI在秩序内写代码-我用gateway-auth-user-tenant串起一条多租户认证流程/01-loose-vs-track.png",
+      "alt": "开篇反差：放手让 AI 跑 vs 在赛道里让 AI 跑",
+      "anchorText": "听起来像废话对不对？但你接着往下看，你会发现这件事在工程上、在一行行代码里、在一次次 PR 合并里，是怎么变成真东西的。",
+      "insertAfter": "section_after"
+    },
+    {
+      "index": 1,
+      "file": "assets/28_AI不是AI写代码-是AI在秩序内写代码-我用gateway-auth-user-tenant串起一条多租户认证流程/02-four-components-layered.png",
+      "alt": "完整分层图：三个限界上下文 + 一个平台层 + 共享内核",
+      "anchorText": "三条链路，三个章节。每个章节，我会把\"AI 在这一步会撞到什么墙、被什么规矩挡住、被什么验证放过\"讲清楚。",
+      "insertAfter": "section_after"
+    },
+    {
+      "index": 2,
+      "file": "assets/28_AI不是AI写代码-是AI在秩序内写代码-我用gateway-auth-user-tenant串起一条多租户认证流程/03-link-a-sequence.png",
+      "alt": "链路 A 时序图：client → gateway → auth → user 的客户-供应商映射",
+      "anchorText": "4. **P0 红线**：单点登录 Cookie 必须 JS 写法，ADR 0001 焊死，复发即回滚。\n\n四个点合起来——AI 在这条链路上能动的空间，是\"按规矩动\"。",
+      "insertAfter": "section_after"
+    },
+    {
+      "index": 3,
+      "file": "assets/28_AI不是AI写代码-是AI在秩序内写代码-我用gateway-auth-user-tenant串起一条多租户认证流程/04-link-b-sequence.png",
+      "alt": "链路 B 时序图：Token 校验 + 多租户透传，gateway 防腐层",
+      "anchorText": "链路 B 的核心是——**平台层告诉你可以怎么做**。换什么缓存、用什么鉴权、写不写 JWT 验签，都在 SPI 边界内开放。",
+      "insertAfter": "section_after"
+    },
+    {
+      "index": 4,
+      "file": "assets/28_AI不是AI写代码-是AI在秩序内写代码-我用gateway-auth-user-tenant串起一条多租户认证流程/05-link-c-sequence.png",
+      "alt": "链路 C 时序图：tenant → Kafka → user 的发布-订阅 + 幂等保证",
+      "anchorText": "到这里你应该感觉到一条主线了——**三个限界上下文都用发布语言说话，但每一段发布语言都有自己的硬规则，不能串**。",
+      "insertAfter": "section_after"
+    },
+    {
+      "index": 5,
+      "file": "assets/28_AI不是AI写代码-是AI在秩序内写代码-我用gateway-auth-user-tenant串起一条多租户认证流程/06-hard-vs-soft-rules.png",
+      "alt": "硬秩序 vs 软秩序：三个限界上下文焊边界 vs 平台层放选择",
+      "anchorText": "这件事跟上一篇\"留白设计\"那一节是呼应的——上一篇讲为什么秩序要有留白，这一篇用 gateway 的 6 个 SPI + `@ConditionalOnMissingBean` 给出了最干净的工程实证。",
+      "insertAfter": "section_after"
+    }
+  ],
+  "publishStatus": "pending",
+  "publishUrl": null
+}

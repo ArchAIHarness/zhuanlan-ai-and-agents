@@ -1,0 +1,109 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "给 AI 长出一件新本事——插件不用敲，是聊出来的",
+  "summary": "造插件不用自己敲代码。你要做的，是把脑子里那套规矩讲清楚——这件事要什么、出什么，按什么流程，哪些红线不能碰；剩下的代码，让 AI 替你写。这篇用一个真实的“打包文章”小工具，手把手带你从立规矩到聊出一件 AI 专属新本事，再聊几轮调顺。会不会造工具，拼的不是谁更会敲键盘，是谁更想得清楚。",
+  "tags": [
+    "人工智能",
+    "语言模型",
+    "AI编程"
+  ],
+  "tags_intended": [
+    "插件",
+    "OpenCode",
+    "Agent",
+    "工作流",
+    "提示词"
+  ],
+  "tags_note": "本账号博客等级<3，CSDN 禁止创建自定义标签，最终改用平台已有推荐标签（人工智能、语言模型、AI编程）；搜索“语言模型”时推荐区同时出现“语言模型”和“AI编程”，直接点选叶子元素即可",
+  "category": "人工智能",
+  "article_type": "original",
+  "editor_type": "markdown",
+  "article_id": 162225651,
+  "draft_status": "saved",
+  "csdn_status_code": 2,
+  "pub_status": "draft",
+  "read_type": "public",
+  "csdn_category_column": "看懂AI和智能体",
+  "cover_cdn_url": "uploaded-confirmed-cover.png",
+  "content_image_cdn_urls": [
+    "https://i-blog.csdnimg.cn/direct/5e53310605ef45d590f31091a9952026.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/d14307200c794e198a8ab22f438b0bd4.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/70cea3b5500441e3bc006dfdd9eb7d22.png#pic_center"
+  ],
+  "source_content_package": "",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "channel_actions": [
+    "prepare-csdn-markdown",
+    "save-draft-with-browser-automation",
+    "publish-after-human-confirmation"
+  ],
+  "validation_points": [
+    "markdown-preview",
+    "code-block-rendered",
+    "image-rendered",
+    "external-links-reviewed",
+    "category-and-tags-selected",
+    "originality-declaration",
+    "manual-publish-confirmation"
+  ],
+  "manual_steps": [
+    "open-csdn-md-editor",
+    "inject-placeholder-markdown",
+    "fill-title",
+    "upload-images-via-placeholder-replacement",
+    "fill-cover-summary-category-tags",
+    "confirm-originality-declaration",
+    "save-draft",
+    "stop-before-publish"
+  ],
+  "content_images": [
+    {
+      "index": 0,
+      "alt": "把AI干活想象成流水线，每个节点留一个挂钩，插件就是往挂钩上挂自己的逻辑",
+      "src": "assets/13_给AI长出一件新本事/01-hooks-pipeline.png",
+      "placeholder": "@@@IMG_0@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/5e53310605ef45d590f31091a9952026.png#pic_center"
+    },
+    {
+      "index": 1,
+      "alt": "立规矩三层：要什么和出什么、按什么流程和规范、哪些红线不能碰",
+      "src": "assets/13_给AI长出一件新本事/02-three-layers.png",
+      "placeholder": "@@@IMG_1@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/d14307200c794e198a8ab22f438b0bd4.png#pic_center"
+    },
+    {
+      "index": 2,
+      "alt": "同一份规矩，左边是你说的人话，右边是AI翻成的工具，跑起来每次分毫不差",
+      "src": "assets/13_给AI长出一件新本事/03-words-to-tool.png",
+      "placeholder": "@@@IMG_2@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/70cea3b5500441e3bc006dfdd9eb7d22.png#pic_center"
+    }
+  ],
+  "image_count": 3,
+  "cover_image": "assets/13_给AI长出一件新本事/cover.png",
+  "column": "看懂AI与智能体",
+  "published_url": "",
+  "session": {
+    "id": "csdn-13-draft",
+    "status": "draft-ready",
+    "current_step": "draft-saved",
+    "recoverable": true
+  },
+  "generated_at": "2026-06-23T02:43:19.000Z",
+  "sensitive_findings": [],
+  "checklist": [
+    "标题已填",
+    "摘要已填（145/256）",
+    "标签已选：人工智能、语言模型、AI编程（账号等级<3，自定义标签不可用）",
+    "分类专栏已勾选：看懂AI和智能体",
+    "封面已上传 cover.png 并确认（替换掉自动抓取的正文首图）",
+    "文章类型：原创",
+    "可见范围：全部可见",
+    "3 张配图占位符替换法逐张上传并验证（占位符全部消失，CDN 化）",
+    "正文含 1 个 js 代码块，编辑器内渲染正常（含行内代码 .opencode/plugins/、agent-workflows）",
+    "已点保存为草稿（articleId=162225651），停在发布前"
+  ]
+}

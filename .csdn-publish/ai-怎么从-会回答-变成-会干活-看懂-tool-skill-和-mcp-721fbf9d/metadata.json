@@ -1,0 +1,83 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "AI 怎么从“会回答”变成“会干活”？看懂 Tool、Skill 和 MCP",
+  "summary": "AI 怎么从“会回答”变成“会干活”？看懂 Tool、Skill 和 MCP 前面几篇文章，我们一直在拆一个问题：AI 到底是怎么工作的。 第一篇讲了模型。它不是在真正“思考”，而是在基于上下文预测下一个最合理的片段。 第二篇讲了 Agent。它不是更会聊天的 AI，而是围绕目标、工具、反馈和验证组成的执行系统。 第三",
+  "tags": [
+    "AI Agent",
+    "MCP",
+    "Tool",
+    "Skill",
+    "智能体"
+  ],
+  "category": "人工智能",
+  "article_type": "original",
+  "editor_type": "markdown",
+  "source_content_package": "",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "channel_actions": [
+    "prepare-csdn-markdown",
+    "save-draft-with-browser-automation",
+    "publish-after-human-confirmation"
+  ],
+  "validation_points": [
+    "markdown-preview",
+    "code-highlight-rendered",
+    "image-rendered",
+    "external-links-reviewed",
+    "category-and-tags-selected",
+    "originality-declaration",
+    "manual-publish-confirmation"
+  ],
+  "manual_steps": [
+    "open-csdn-creator",
+    "manual-login-if-needed",
+    "select-markdown-editor",
+    "paste-article-markdown",
+    "fill-title-summary-category-tags",
+    "confirm-originality-declaration",
+    "preview-article",
+    "save-draft",
+    "stop-before-publish"
+  ],
+  "preview_requirements": [
+    "markdown-rendered",
+    "code-highlight-rendered",
+    "images-rendered",
+    "links-clickable"
+  ],
+  "cover_image": "assets/tool-skill-mcp/01-cover-tool-skill-mcp.png",
+  "column": "看懂AI与智能体",
+  "assets": [
+    "assets/tool-skill-mcp/01-cover-tool-skill-mcp.png",
+    "assets/tool-skill-mcp/02-answer-vs-action.png",
+    "assets/tool-skill-mcp/03-tool-skill-mcp-stack.png",
+    "assets/tool-skill-mcp/04-capability-sources-map-v2.png",
+    "assets/tool-skill-mcp/05-capability-supply-for-builders-v2.png",
+    "assets/tool-skill-mcp/06-boundary-audit-loop.png"
+  ],
+  "session": {
+    "id": "csdn-d875362ab8",
+    "status": "package-updated",
+    "current_step": "cover-and-column-configured",
+    "recoverable": true
+  },
+  "generated_at": "2026-06-18T08:48:09.452Z",
+  "updated_at": "2026-06-19T00:00:00.000Z",
+  "sensitive_findings": [],
+  "checklist": [
+    "标题长度正常",
+    "摘要已生成，发布前可填入 CSDN 摘要/描述区域",
+    "标签已准备：AI Agent、MCP、Tool、Skill、智能体",
+    "分类已设置：人工智能",
+    "文章类型：原创，发布前确认原创声明",
+    "封面图已准备：assets/tool-skill-mcp/01-cover-tool-skill-mcp.png，发布前上传并设置封面",
+    "专栏已指定：看懂AI与智能体，发布前确认加入对应专栏",
+    "代码块围栏数量正常",
+    "包含图片，发布前检查图片是否上传成功",
+    "包含外链，发布前检查链接可访问性与平台策略",
+    "发布前人工确认：标题、摘要、分类、标签、封面、专栏、原创声明、代码块、图片、外链和敏感信息"
+  ]
+}

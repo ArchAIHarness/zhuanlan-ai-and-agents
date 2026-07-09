@@ -1,0 +1,17 @@
+{
+  "title": "一天搭一支 AI 研发团队——FDE 第一年装备清单",
+  "summary": "上一篇讲完养团队十件内功，这篇陪你把\"知道\"做成\"做到\"——用一天对话、不写一行代码，搭出一支商务/项目/产品/设计/架构/开发/测试/运维/运营 9 个 agent 的 AI 研发团队。",
+  "tags": ["人工智能", "AI编程", "语言模型"],
+  "category": "人工智能",
+  "column": "看懂AI和智能体",
+  "cover": "assets/26_一天搭一支AI研发团队/cover.png",
+  "source_article": "26_一天搭一支AI研发团队.md",
+  "draft_status": "saved",
+  "csdn_article_id": "162465570",
+  "draft_url": "https://editor.csdn.net/md?not_checkout=1&articleId=162465570",
+  "images": [
+    {"index": 0, "alt": "30 分钟对话地图，4 个对话节点时间轴", "src": "assets/26_一天搭一支AI研发团队/01-30min-dialogue-map.png", "cdn": "https://i-blog.csdnimg.cn/direct/8e2fb2f08a8148318a51f49aae0332d3.png"},
+    {"index": 1, "alt": "第一个专员从对话中诞生", "src": "assets/26_一天搭一支AI研发团队/02-specialist-emerges.png", "cdn": "https://i-blog.csdnimg.cn/direct/7e10387d74144f6bbe523377b0e6292d.png"},
+    {"index": 2, "alt": "AI 研发团队各管一摊：你说一句话，9 个 agent 自己接活、自己分工", "src": "assets/26_一天搭一支AI研发团队/03-ai-rd-team.png", "cdn": "https://i-blog.csdnimg.cn/direct/cdc2fb8e8b5c48c3a1e8ef3c83b496ab.png"}
+  ]
+}

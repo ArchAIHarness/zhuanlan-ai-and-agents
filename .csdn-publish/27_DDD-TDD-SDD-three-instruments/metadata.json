@@ -1,0 +1,45 @@
+{
+  "platform": "csdn",
+  "articleId": null,
+  "title": "DDD、TDD、SDD——AI 时代工程师的三件秩序乐器",
+  "summary": "AI 编码越强，秩序越贵——这一篇把 DDD、TDD、SDD 三件乐器重新摆上桌：DDD 划业务边界、TDD 做体系审计、SDD 立人机协作协议，再加一层\"边界焊死、选择放开\"的软秩序。架构师不是 AI 的甲方，是 AI 的作曲家。",
+  "summaryCharCount": 116,
+  "tags": ["人工智能", "AI编程", "语言模型"],
+  "category": "看懂AI和智能体",
+  "articleType": "原创",
+  "visibility": "全部可见",
+  "multiPlatform": false,
+  "cover": "assets/27_DDD、TDD、SDD——AI时代工程师的三件秩序乐器/cover.png",
+  "imagePositions": [
+    {
+      "index": 0,
+      "file": "assets/27_DDD、TDD、SDD——AI时代工程师的三件秩序乐器/01-sheet-music-and-orchestra.png",
+      "alt": "乐谱与乐团：架构师写乐谱，AI 演奏交响乐",
+      "anchorText": "不是教你 DDD 是什么（你早就会了），也不是教你 TDD 红绿蓝怎么循环（你早就不陌生），而是讲一件事：**这三件乐器在 AI 时代怎么重新组合，怎么从\"加分\"变成\"保命\"**。",
+      "insertAfter": "下面我们一段一段拆。"
+    },
+    {
+      "index": 1,
+      "file": "assets/27_DDD、TDD、SDD——AI时代工程师的三件秩序乐器/02-three-loss-of-control.png",
+      "alt": "三个失控现场：凭印象写实体 / 跳过测试 / 文档当摆设",
+      "anchorText": "这三件事表面上看是 AI 的三个毛病",
+      "insertAfter": "接下来三节我们就把 DDD、TDD、SDD 三件乐器一件一件拿出来，看它们怎么把秩序从\"软\"补到\"硬\"。"
+    },
+    {
+      "index": 2,
+      "file": "assets/27_DDD、TDD、SDD——AI时代工程师的三件秩序乐器/03-two-layer-docs.png",
+      "alt": "同一套秩序两种表达：readme 给人看，AGENTS.md 给 AI 看",
+      "anchorText": "下面这节是这一篇的关键——初版规划里我漏掉了的洞察：**秩序里有留白**。",
+      "insertAfter": "下面这节是这一篇的关键"
+    },
+    {
+      "index": 3,
+      "file": "assets/27_DDD、TDD、SDD——AI时代工程师的三件秩序乐器/04-hard-rules-vs-soft-rules.png",
+      "alt": "硬规范与软秩序：边界焊死与选择放开的对照",
+      "anchorText": "下面我把这一篇收个尾，然后把下一篇带进去。",
+      "insertAfter": "下面我把这一篇收个尾，然后把下一篇带进去。"
+    }
+  ],
+  "publishStatus": "draft",
+  "publishUrl": null
+}

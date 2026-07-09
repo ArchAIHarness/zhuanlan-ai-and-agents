@@ -1,0 +1,16 @@
+{
+  "title": "AI 时代每个 FDE 都要有自己的 AI 团队——别再单打独斗了",
+  "summary": "FDE 第一年要养好的十件内功：治理层（红线约束、单一职责、可观测性、失败兜底）、知识层（自学习成长、结构化目录、文档记忆）、复用层（借助开源、基座+插件化、交流式交互）。团队是沟通出来的，不是手动创建的。",
+  "tags": ["人工智能", "AI编程", "语言模型"],
+  "column": "看懂AI和智能体",
+  "article_type": "原创",
+  "visibility": "全部可见",
+  "cover": "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/cover.png",
+  "images": [
+    "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/01-solo-vs-team.png",
+    "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/02-team-emerges-from-talk.png",
+    "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/03-ten-elements-overview.png",
+    "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/04-failure-fallback.png",
+    "assets/25_AI时代每个FDE都要有自己的AI团队别再单打独斗了/05-five-step-loop.png"
+  ]
+}

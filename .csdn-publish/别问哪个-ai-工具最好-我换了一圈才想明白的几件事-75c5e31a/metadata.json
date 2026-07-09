@@ -1,0 +1,123 @@
+{
+  "type": "channel-package",
+  "channel": "csdn",
+  "platform": "csdn",
+  "title": "别问哪个 AI 工具最好——我换了一圈才想明白的几件事",
+  "summary": "追新装删折腾大半年，我才想明白：该问的不是哪个 AI 工具最好，而是哪个值得长期养。这篇聊我栽过几回跟头后养成的判断标准——能不能看见内部、换得了脑子、分得清层、加得了料、将来变得了形。会过时的永远是工具，不会过时的，是你心里那杆判断它的秤。",
+  "tags": [
+    "人工智能",
+    "AI编程",
+    "语言模型"
+  ],
+  "tags_intended": [
+    "AI工具",
+    "OpenCode",
+    "开源",
+    "AI Agent",
+    "插件"
+  ],
+  "tags_note": "本账号博客等级<3，CSDN 禁止创建自定义标签，最终改用平台已有推荐标签（人工智能、AI编程、语言模型）",
+  "category": "人工智能",
+  "article_type": "original",
+  "editor_type": "markdown",
+  "article_id": 162223491,
+  "draft_status": "saved",
+  "csdn_status_code": 2,
+  "pub_status": "draft",
+  "read_type": "public",
+  "csdn_category_column": "看懂AI和智能体",
+  "cover_cdn_url": "uploaded-confirmed",
+  "content_image_cdn_urls": [
+    "https://i-blog.csdnimg.cn/direct/dddfa5d9fd024a239c0b12df18914f6b.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/68f618aa2488427d8a694e6cc3bb50f5.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/e476600123ac4691a8b7e0cfe8c2ef32.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/bad2afc09c58477bba812a16d79fd979.png#pic_center",
+    "https://i-blog.csdnimg.cn/direct/8cca309d75494ca1918c859b0e635526.png#pic_center"
+  ],
+  "source_content_package": "",
+  "draft_gate": "browser-or-manual",
+  "publish_gate": "manual-confirmation-required",
+  "channel_actions": [
+    "prepare-csdn-markdown",
+    "save-draft-with-browser-automation",
+    "publish-after-human-confirmation"
+  ],
+  "validation_points": [
+    "markdown-preview",
+    "image-rendered",
+    "external-links-reviewed",
+    "category-and-tags-selected",
+    "originality-declaration",
+    "manual-publish-confirmation"
+  ],
+  "manual_steps": [
+    "open-csdn-md-editor",
+    "inject-placeholder-markdown",
+    "fill-title",
+    "upload-images-via-placeholder-replacement",
+    "fill-cover-summary-category-tags",
+    "confirm-originality-declaration",
+    "save-draft",
+    "stop-before-publish"
+  ],
+  "content_images": [
+    {
+      "index": 0,
+      "alt": "追新装删不停折腾一圈圈换工具，vs 选一把对的工具长期养着",
+      "src": "assets/11_别问哪个AI工具最好/01-chase-vs-cultivate.png",
+      "placeholder": "@@@IMG_0@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/dddfa5d9fd024a239c0b12df18914f6b.png#pic_center"
+    },
+    {
+      "index": 1,
+      "alt": "闭源是个看不进去的黑盒子，开源是把里子翻开给你看",
+      "src": "assets/11_别问哪个AI工具最好/03-blackbox-vs-open.png",
+      "placeholder": "@@@IMG_1@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/68f618aa2488427d8a694e6cc3bb50f5.png#pic_center"
+    },
+    {
+      "index": 2,
+      "alt": "一锅粥揉成一团的工具 vs 规矩、角色、工具、红线一层层切开的工具",
+      "src": "assets/11_别问哪个AI工具最好/04-layered-inside.png",
+      "placeholder": "@@@IMG_2@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/e476600123ac4691a8b7e0cfe8c2ef32.png#pic_center"
+    },
+    {
+      "index": 3,
+      "alt": "同一个内核，长出终端、浏览器、编辑器、服务端好几副面孔",
+      "src": "assets/11_别问哪个AI工具最好/05-one-core-many-faces.png",
+      "placeholder": "@@@IMG_3@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/bad2afc09c58477bba812a16d79fd979.png#pic_center"
+    },
+    {
+      "index": 4,
+      "alt": "一把量工具的尺子，五条刻度：看得见内部、换得了脑子、分得清层、加得了料、变得了形",
+      "src": "assets/11_别问哪个AI工具最好/02-five-angle-ruler.png",
+      "placeholder": "@@@IMG_4@@@",
+      "cdn_url": "https://i-blog.csdnimg.cn/direct/8cca309d75494ca1918c859b0e635526.png#pic_center"
+    }
+  ],
+  "image_count": 5,
+  "cover_image": "assets/11_别问哪个AI工具最好/cover.png",
+  "column": "看懂AI与智能体",
+  "published_url": "",
+  "session": {
+    "id": "csdn-11-draft",
+    "status": "draft-ready",
+    "current_step": "draft-saved",
+    "recoverable": true
+  },
+  "generated_at": "2026-06-23T01:46:50.000Z",
+  "sensitive_findings": [],
+  "checklist": [
+    "标题已填",
+    "摘要已填（121/256）",
+    "标签已选：人工智能、AI编程、语言模型（账号等级<3，自定义标签不可用）",
+    "分类专栏已勾选：看懂AI和智能体",
+    "封面已上传确认",
+    "文章类型：原创",
+    "可见范围：全部可见",
+    "5 张配图占位符替换法逐张上传并验证（imgCount=5，全部 csdnimg CDN）",
+    "已点保存为草稿（articleId=162223491），停在发布前"
+  ]
+}
