@@ -4,5 +4,6 @@
 .var/
 assets/
 audit/*.png
+.csdn-publish/
 .juejin-publish/
 .plugins/
