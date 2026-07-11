@@ -4,7 +4,7 @@
 
 
 
-![第 1 节配图](assets/75_fde_career_path/01-fde-anxiety-clock.png)
+![第 1 节配图](assets/998_fde_career_path/01-fde-anxiety-clock.png)
 
 凌晨两点,我刷到一条 LinkedIn 帖子。
 
@@ -54,7 +54,7 @@ L 不知道该听谁的。
 
 FDE 这个角色,首当其冲。
 
-![第 2 节配图](assets/75_fde_career_path/02-three-types-of-fde.png)
+![第 2 节配图](assets/998_fde_career_path/02-three-types-of-fde.png)
 
 为什么?
 
@@ -163,7 +163,7 @@ Stack Overflow Developer Survey 2026 里有个关键发现:在所有受访工程
 
 不是按"水平高低"分,是按"手艺长在哪"分。
 
-![第 3 节配图](assets/75_fde_career_path/03-four-paths-fork.png)
+![第 3 节配图](assets/998_fde_career_path/03-four-paths-fork.png)
 
 **第一类:业务型 FDE——客户对话为主,代码为辅。**
 
@@ -270,7 +270,7 @@ AI Coding 现在能干掉一半这种手艺——生成代码、定位 bug、写
 
 我把 FDE 的四条路径画出来,你对照一下自己。
 
-![第 4 节配图](assets/75_fde_career_path/04-ability-radar.png)
+![第 4 节配图](assets/998_fde_career_path/04-ability-radar.png)
 
 **路径一:深耕 FDE → 首席工程师 / 资深 FDE 专家。**
 
@@ -361,7 +361,7 @@ AI Coding 现在能干掉一半这种手艺——生成代码、定位 bug、写
 
 把模糊的焦虑剥成具体的真需求,问题就清楚了一半。
 
-![第 5 节配图](assets/75_fde_career_path/05-mindset-curve.png)
+![第 5 节配图](assets/998_fde_career_path/05-mindset-curve.png)
 
 **第一个真需求:我的核心竞争力到底是什么?**
 
