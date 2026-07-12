@@ -8,13 +8,13 @@
     "forbidden_words": "✅ 0 hits",
     "issue_xx_indicator": "❌ 4 hits (L26/L30/L423/L487)"
   },
-  "stopped_reason": "按主理人 2026-07-09 硬命令: Step 0 不过立即停止,记 issue,不自行打补丁",
+  "stopped_reason": "按老大 2026-07-09 硬命令: Step 0 不过立即停止,记 issue,不自行打补丁",
   "issues": [
     {
       "type": "issue_xx_indicator",
       "severity": "high",
       "location": "L26, L30, L423, L487",
-      "detail": "'这一篇/前面几篇/下篇' 4 处代指,违反主理人 2026-07-09 硬命令"
+      "detail": "'这一篇/前面几篇/下篇' 4 处代指,违反老大 2026-07-09 硬命令"
     }
   ],
   "recorded_at": "2026-07-09T11:03",

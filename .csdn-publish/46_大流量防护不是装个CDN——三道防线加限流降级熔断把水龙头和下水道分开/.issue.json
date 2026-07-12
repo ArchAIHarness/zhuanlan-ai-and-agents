@@ -8,7 +8,7 @@
     "forbidden_words": "✅ 0 hits",
     "issue_xx_indicator": "❌ 4 hits (L2/L12/L412/L414-416 出现 上一篇/这一篇)"
   },
-  "stopped_reason": "按主理人 2026-07-09 硬命令: Step 0 不过立即停止,记 issue,不自行打补丁",
+  "stopped_reason": "按老大 2026-07-09 硬命令: Step 0 不过立即停止,记 issue,不自行打补丁",
   "issues": [
     {
       "type": "opening_blockquote",
@@ -20,7 +20,7 @@
       "type": "issue_xx_indicator",
       "severity": "high",
       "location": "L2, L12, L412, L414, L416",
-      "detail": "'上一篇/这一篇' 4 处代指,违反主理人 2026-07-09 '不能有 xx 期/xx 篇代指' 新硬命令。需改为'上一回/这回/这一节/后面那一节'或自然衔接"
+      "detail": "'上一篇/这一篇' 4 处代指,违反老大 2026-07-09 '不能有 xx 期/xx 篇代指' 新硬命令。需改为'上一回/这回/这一节/后面那一节'或自然衔接"
     }
   ],
   "recorded_at": "2026-07-09T11:02",
